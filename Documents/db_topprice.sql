@@ -2,10 +2,10 @@
 -- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
--- Hôte : localhost
--- Généré le : ven. 08 avr. 2022 à 09:13
--- Version du serveur :  5.7.11
--- Version de PHP : 8.0.1
+-- Host: localhost
+-- Generation Time: Apr 23, 2022 at 07:34 PM
+-- Server version: 5.7.11
+-- PHP Version: 8.0.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,13 +18,15 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de données : `db_topprice`
+-- Database: `db_topprice`
 --
+
+CREATE DATABASE db_topprice;
 
 -- --------------------------------------------------------
 
 --
--- Structure de la table `t_brand`
+-- Table structure for table `t_brand`
 --
 
 CREATE TABLE `t_brand` (
@@ -36,7 +38,7 @@ CREATE TABLE `t_brand` (
 -- --------------------------------------------------------
 
 --
--- Structure de la table `t_constructor`
+-- Table structure for table `t_constructor`
 --
 
 CREATE TABLE `t_constructor` (
@@ -47,7 +49,7 @@ CREATE TABLE `t_constructor` (
 -- --------------------------------------------------------
 
 --
--- Structure de la table `t_os`
+-- Table structure for table `t_os`
 --
 
 CREATE TABLE `t_os` (
@@ -58,7 +60,20 @@ CREATE TABLE `t_os` (
 -- --------------------------------------------------------
 
 --
--- Structure de la table `t_provider`
+-- Table structure for table `t_price`
+--
+
+CREATE TABLE `t_price` (
+  `idPrice` int(11) NOT NULL,
+  `priAmount` decimal(10,0) NOT NULL,
+  `priDate` date NOT NULL,
+  `fkSmartpone` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `t_provider`
 --
 
 CREATE TABLE `t_provider` (
@@ -69,7 +84,7 @@ CREATE TABLE `t_provider` (
 -- --------------------------------------------------------
 
 --
--- Structure de la table `t_smartphone`
+-- Table structure for table `t_smartphone`
 --
 
 CREATE TABLE `t_smartphone` (
@@ -89,36 +104,36 @@ CREATE TABLE `t_smartphone` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Index pour les tables déchargées
+-- Indexes for dumped tables
 --
 
 --
--- Index pour la table `t_brand`
+-- Indexes for table `t_brand`
 --
 ALTER TABLE `t_brand`
   ADD PRIMARY KEY (`idBrand`),
   ADD KEY `fk_t_brand` (`fkOS`);
 
 --
--- Index pour la table `t_constructor`
+-- Indexes for table `t_constructor`
 --
 ALTER TABLE `t_constructor`
   ADD PRIMARY KEY (`idConstructor`);
 
 --
--- Index pour la table `t_os`
+-- Indexes for table `t_os`
 --
 ALTER TABLE `t_os`
   ADD PRIMARY KEY (`idOS`);
 
 --
--- Index pour la table `t_provider`
+-- Indexes for table `t_provider`
 --
 ALTER TABLE `t_provider`
   ADD PRIMARY KEY (`idProvider`);
 
 --
--- Index pour la table `t_smartphone`
+-- Indexes for table `t_smartphone`
 --
 ALTER TABLE `t_smartphone`
   ADD PRIMARY KEY (`idSmartphone`),
@@ -127,51 +142,51 @@ ALTER TABLE `t_smartphone`
   ADD KEY `fkProvider` (`fkProvider`);
 
 --
--- AUTO_INCREMENT pour les tables déchargées
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT pour la table `t_brand`
+-- AUTO_INCREMENT for table `t_brand`
 --
 ALTER TABLE `t_brand`
   MODIFY `idBrand` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT pour la table `t_constructor`
+-- AUTO_INCREMENT for table `t_constructor`
 --
 ALTER TABLE `t_constructor`
   MODIFY `idConstructor` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT pour la table `t_os`
+-- AUTO_INCREMENT for table `t_os`
 --
 ALTER TABLE `t_os`
   MODIFY `idOS` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT pour la table `t_provider`
+-- AUTO_INCREMENT for table `t_provider`
 --
 ALTER TABLE `t_provider`
   MODIFY `idProvider` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT pour la table `t_smartphone`
+-- AUTO_INCREMENT for table `t_smartphone`
 --
 ALTER TABLE `t_smartphone`
   MODIFY `idSmartphone` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- Contraintes pour les tables déchargées
+-- Constraints for dumped tables
 --
 
 --
--- Contraintes pour la table `t_brand`
+-- Constraints for table `t_brand`
 --
 ALTER TABLE `t_brand`
   ADD CONSTRAINT `fk_t_brand` FOREIGN KEY (`fkOS`) REFERENCES `t_os` (`idOS`);
 
 --
--- Contraintes pour la table `t_smartphone`
+-- Constraints for table `t_smartphone`
 --
 ALTER TABLE `t_smartphone`
   ADD CONSTRAINT `t_smartphone_ibfk_1` FOREIGN KEY (`fkConstructor`) REFERENCES `t_constructor` (`idConstructor`),
