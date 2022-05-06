@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SmartphoneManager (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "SmartphoneManager (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
