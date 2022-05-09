@@ -9,6 +9,10 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/images/backgroundImage.png" Stretch="Uniform" />
+        </Grid.Background>
+        
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
@@ -21,7 +25,7 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <TextBlock Text="smartphone manager"/>
+            <TextBlock Text="smartphone manager" FontWeight="Bold" FontSize="19" CharacterSpacing="30" Typography.Capitals="AllPetiteCaps"/>
 
         </Grid>
         

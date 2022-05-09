@@ -12,8 +12,8 @@
     <EnablePreviewMsixTooling>true</EnablePreviewMsixTooling>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="Fonts\Poppins-Bold.ttf" />
-    <None Remove="Fonts\WaterBrush-Regular.ttf" />
+    <None Remove="Assets\images\backgroundimage.png" />
+    <None Remove="Poppins-Light.ttf" />
   </ItemGroup>
 
 
@@ -40,9 +40,8 @@
     <ProjectCapability Include="Msix" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Assets\SplashImages\" />
+    <Resource Include="Poppins-Light.ttf" />
   </ItemGroup>
-
 
   <ItemGroup>
     <Page Update="Pages\WelcomePage.xaml">
