@@ -685,25 +685,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pl03jlu\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\sergh\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pl03jlu\\Documents\\GitHub\\P_TopPrice\\SmartphoneManager\\SmartphoneManager\\SmartphoneManager.csproj",
+      "projectUniqueName": "C:\\Users\\sergh\\Documents\\GitHub\\P_TopPrice\\SmartphoneManager\\SmartphoneManager\\SmartphoneManager.csproj",
       "projectName": "SmartphoneManager",
-      "projectPath": "C:\\Users\\pl03jlu\\Documents\\GitHub\\P_TopPrice\\SmartphoneManager\\SmartphoneManager\\SmartphoneManager.csproj",
-      "packagesPath": "C:\\Users\\pl03jlu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pl03jlu\\Documents\\GitHub\\P_TopPrice\\SmartphoneManager\\SmartphoneManager\\obj\\",
+      "projectPath": "C:\\Users\\sergh\\Documents\\GitHub\\P_TopPrice\\SmartphoneManager\\SmartphoneManager\\SmartphoneManager.csproj",
+      "packagesPath": "C:\\Users\\sergh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sergh\\Documents\\GitHub\\P_TopPrice\\SmartphoneManager\\SmartphoneManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\pl03jlu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sergh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

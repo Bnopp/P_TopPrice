@@ -1,21 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "U/nX9HuIeKKXRucIaDh/64RGVCXXyR9N6Rd6jOKXzlYqxnGsntEdzP7Dsaoz4Eqoq9vCTFbLPGI3ARkpp89U1Q==",
+  "dgSpecHash": "2DwFoHl6MGCEKj/kYEdgP/UIZUt0viAxsWhBKqvZujdolDWSu8AoVtlHcAYeWVYovvQi0quBTkK/vPqTY2HreA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pl03jlu\\Documents\\GitHub\\P_TopPrice\\SmartphoneManager\\SmartphoneManager\\SmartphoneManager.csproj",
+  "projectFilePath": "C:\\Users\\sergh\\Documents\\GitHub\\P_TopPrice\\SmartphoneManager\\SmartphoneManager\\SmartphoneManager.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22000.194\\microsoft.windows.sdk.buildtools.10.0.22000.194.nupkg.sha512",
-    "C:\\Users\\pl03jlu\\.nuget\\packages\\microsoft.windowsappsdk\\1.0.0\\microsoft.windowsappsdk.1.0.0.nupkg.sha512",
-    "C:\\Users\\pl03jlu\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.4\\microsoft.netcore.app.runtime.win-x64.6.0.4.nupkg.sha512",
-    "C:\\Users\\pl03jlu\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.4\\microsoft.aspnetcore.app.runtime.win-x64.6.0.4.nupkg.sha512",
-    "C:\\Users\\pl03jlu\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\6.0.4\\microsoft.netcore.app.runtime.win-arm64.6.0.4.nupkg.sha512",
-    "C:\\Users\\pl03jlu\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.4\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.4.nupkg.sha512",
-    "C:\\Users\\pl03jlu\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.24\\microsoft.windows.sdk.net.ref.10.0.19041.24.nupkg.sha512",
-    "C:\\Users\\pl03jlu\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\6.0.4\\microsoft.aspnetcore.app.runtime.win-arm64.6.0.4.nupkg.sha512",
-    "C:\\Users\\pl03jlu\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.4\\microsoft.netcore.app.runtime.win-x86.6.0.4.nupkg.sha512",
-    "C:\\Users\\pl03jlu\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\6.0.4\\microsoft.windowsdesktop.app.runtime.win-arm64.6.0.4.nupkg.sha512",
-    "C:\\Users\\pl03jlu\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.4\\microsoft.aspnetcore.app.runtime.win-x86.6.0.4.nupkg.sha512",
-    "C:\\Users\\pl03jlu\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.4\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.4.nupkg.sha512"
+    "C:\\Users\\sergh\\.nuget\\packages\\microsoft.windowsappsdk\\1.0.0\\microsoft.windowsappsdk.1.0.0.nupkg.sha512",
+    "C:\\Users\\sergh\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.4\\microsoft.netcore.app.runtime.win-x64.6.0.4.nupkg.sha512",
+    "C:\\Users\\sergh\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.4\\microsoft.aspnetcore.app.runtime.win-x64.6.0.4.nupkg.sha512",
+    "C:\\Users\\sergh\\.nuget\\packages\\microsoft.netcore.app.runtime.win-arm64\\6.0.4\\microsoft.netcore.app.runtime.win-arm64.6.0.4.nupkg.sha512",
+    "C:\\Users\\sergh\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.4\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.4.nupkg.sha512",
+    "C:\\Users\\sergh\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.24\\microsoft.windows.sdk.net.ref.10.0.19041.24.nupkg.sha512",
+    "C:\\Users\\sergh\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\6.0.4\\microsoft.aspnetcore.app.runtime.win-arm64.6.0.4.nupkg.sha512",
+    "C:\\Users\\sergh\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.4\\microsoft.netcore.app.runtime.win-x86.6.0.4.nupkg.sha512",
+    "C:\\Users\\sergh\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\6.0.4\\microsoft.windowsdesktop.app.runtime.win-arm64.6.0.4.nupkg.sha512",
+    "C:\\Users\\sergh\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.4\\microsoft.aspnetcore.app.runtime.win-x86.6.0.4.nupkg.sha512",
+    "C:\\Users\\sergh\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.4\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.4.nupkg.sha512"
   ],
   "logs": []
 }
