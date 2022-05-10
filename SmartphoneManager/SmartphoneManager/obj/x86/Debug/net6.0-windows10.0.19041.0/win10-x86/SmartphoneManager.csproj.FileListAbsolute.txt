@@ -570,3 +570,8 @@ C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\o
 C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\ProjectArchitectures.txt
 C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\SmartphoneManager.Properties.Resources.resources
 C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\SmartphoneManager.csproj.GenerateResource.cache
+C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Pages\SearchPage.xbf
+C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Pages\SearchPage.g.i.cs
+C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Pages\SearchPage.g.cs
+C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Pages\SearchPage.xaml
+C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Pages\SearchPage.xbf

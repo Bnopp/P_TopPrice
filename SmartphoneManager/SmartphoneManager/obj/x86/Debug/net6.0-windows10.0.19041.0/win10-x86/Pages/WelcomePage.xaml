@@ -12,7 +12,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Assets/images/bgimg.jpg" Stretch="UniformToFill" />
         </Grid.Background>
-        
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
@@ -25,12 +25,12 @@
                 <RowDefinition Height="2*"/>
             </Grid.RowDefinitions>
 
-            <TextBlock Text="smartphone manager" Foreground="#7b7b7b" FontWeight="Bold" FontSize="19" Typography.Capitals="AllPetiteCaps" Grid.Row="0" VerticalAlignment="Bottom" Margin="100,0,0,0"/>
+            <TextBlock Text="SMARTPHONE MANAGER" Foreground="#7b7b7b" FontWeight="Bold" FontSize="15" Grid.Row="0" VerticalAlignment="Bottom" Margin="75,0,0,0"/>
 
-            <TextBlock Text="Trouvez le smartphone parfait pour vous" FontWeight="Bold" FontSize="45" TextWrapping="Wrap" Grid.Row="1" VerticalAlignment="Top" Margin="100,0,0,0" Height="Auto"/>
-            <Image Source="/Assets/images/underline.png" Width="100" Grid.Row="1" VerticalAlignment="Bottom" Margin="0,0,20,30"/>
+            <TextBlock Text="Trouvez le smartphone parfait pour vous" FontWeight="Bold" FontSize="40" TextWrapping="Wrap" Grid.Row="1" VerticalAlignment="Top" Margin="75,0,0,0"/>
+            <Image Source="/Assets/images/underline.png" Width="100" Grid.Row="1" VerticalAlignment="Bottom" Margin="0,0,65,50"/>
 
-            <Button Grid.Row="2" Background="#0078e7" CornerRadius="15" VerticalAlignment="Center" Margin="100,0,0,0">
+            <Button x:ConnectionId='2' x:Name="btnLaunch"                      Grid.Row="2" Background="#0078e7" CornerRadius="15" VerticalAlignment="Center" Margin="75,0,0,0">
                 <StackPanel Orientation="Horizontal" Padding="5,0,5,0">
                     <Image Source="/Assets/images/magnifyIcon.png" Width="35"/>
                     <TextBlock Text="Recherchez Maintenant" FontWeight="Bold" FontSize="25" TextAlignment="Center" Padding="5,0,0,5"/>
@@ -38,6 +38,8 @@
             </Button>
 
         </Grid>
+
+        <Image Source="/Assets/images/titleImage.png" Stretch="UniformToFill" Grid.Column="1"/>
     </Grid>
 </Page>
 

@@ -224,27 +224,29 @@ namespace SmartphoneManager.SmartphoneManager_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[9];
+            _typeNameTable = new string[10];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
             _typeNameTable[3] = "Boolean";
             _typeNameTable[4] = "SmartphoneManager.MainWindow";
             _typeNameTable[5] = "Microsoft.UI.Xaml.Window";
-            _typeNameTable[6] = "SmartphoneManager.Pages.WelcomePage";
+            _typeNameTable[6] = "SmartphoneManager.Pages.SearchPage";
             _typeNameTable[7] = "Microsoft.UI.Xaml.Controls.Page";
             _typeNameTable[8] = "Microsoft.UI.Xaml.Controls.UserControl";
+            _typeNameTable[9] = "SmartphoneManager.Pages.WelcomePage";
 
-            _typeTable = new global::System.Type[9];
+            _typeTable = new global::System.Type[10];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
             _typeTable[3] = typeof(global::System.Boolean);
             _typeTable[4] = typeof(global::SmartphoneManager.MainWindow);
             _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Window);
-            _typeTable[6] = typeof(global::SmartphoneManager.Pages.WelcomePage);
+            _typeTable[6] = typeof(global::SmartphoneManager.Pages.SearchPage);
             _typeTable[7] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
             _typeTable[8] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
+            _typeTable[9] = typeof(global::SmartphoneManager.Pages.WelcomePage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -281,7 +283,8 @@ namespace SmartphoneManager.SmartphoneManager_XamlTypeInfo
 
         private object Activate_0_XamlControlsResources() { return new global::Microsoft.UI.Xaml.Controls.XamlControlsResources(); }
         private object Activate_4_MainWindow() { return new global::SmartphoneManager.MainWindow(); }
-        private object Activate_6_WelcomePage() { return new global::SmartphoneManager.Pages.WelcomePage(); }
+        private object Activate_6_SearchPage() { return new global::SmartphoneManager.Pages.SearchPage(); }
+        private object Activate_9_WelcomePage() { return new global::SmartphoneManager.Pages.WelcomePage(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -331,9 +334,9 @@ namespace SmartphoneManager.SmartphoneManager_XamlTypeInfo
                 xamlType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 6:   //  SmartphoneManager.Pages.WelcomePage
+            case 6:   //  SmartphoneManager.Pages.SearchPage
                 userType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_WelcomePage;
+                userType.Activator = Activate_6_SearchPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -344,6 +347,13 @@ namespace SmartphoneManager.SmartphoneManager_XamlTypeInfo
 
             case 8:   //  Microsoft.UI.Xaml.Controls.UserControl
                 xamlType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 9:   //  SmartphoneManager.Pages.WelcomePage
+                userType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_9_WelcomePage;
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
             }
             return xamlType;
