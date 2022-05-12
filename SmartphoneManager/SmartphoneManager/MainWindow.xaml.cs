@@ -19,6 +19,8 @@ using Microsoft.UI;
 using System.Runtime.InteropServices;
 using Windows.UI.ViewManagement;
 using Microsoft.UI.Xaml.Media.Animation;
+using System.Reflection;
+using Windows.Graphics.Display;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -45,7 +47,6 @@ namespace SmartphoneManager
             ContentFrame.Navigate(typeof(WelcomePage), null, new DrillInNavigationTransitionInfo());
 
             _apw.Resize(new Windows.Graphics.SizeInt32(1024, 576));
-
         }
 
         public void GetAppWindowAndPresenter()

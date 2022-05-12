@@ -47,7 +47,5 @@ namespace SmartphoneManager
         }
 
         private Window m_window;
-        internal MainWindow m_appWindow;
-        internal MainWindow m_Window;
     }
 }

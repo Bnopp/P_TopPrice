@@ -751,8 +751,17 @@
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\bgImg.jpg">
       <PackagePath>Assets\images\bgImg.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\Keystation 88 Mk3 Software Manager Setup 1.0.0-12.exe">
+      <PackagePath>Assets\images\Keystation 88 Mk3 Software Manager Setup 1.0.0-12.exe</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\magnifyIcon.png">
       <PackagePath>Assets\images\magnifyIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\MelodicsV2Installer.exe">
+      <PackagePath>Assets\images\MelodicsV2Installer.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\SeeMusic 4.9.3.exe">
+      <PackagePath>Assets\images\SeeMusic 4.9.3.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\titleImage.png">
       <PackagePath>Assets\images\titleImage.png</PackagePath>

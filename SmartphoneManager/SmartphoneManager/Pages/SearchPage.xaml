@@ -6,9 +6,10 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Loaded="Page_Loaded">
 
-    <Grid>
+    <Grid RowSpacing="10">
         <Grid.Background>
             <ImageBrush ImageSource="/Assets/images/bgimg.jpg" Stretch="UniformToFill" />
         </Grid.Background>
@@ -16,16 +17,84 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
         </Grid.RowDefinitions>
 
-        <TextBox x:Name="tbSearch" 
+        <StackPanel Grid.Row="0" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+            <TextBox x:Name="tbSearch" 
                  PlaceholderText="Rechercher..." 
                  PlaceholderForeground="White" 
                  Background="#7b7b7b"
-                 Width="500"
-                 VerticalAlignment="Center"
-                 Grid.Row="0"/>
+                 CornerRadius="15,0,0,15"
+                 BorderThickness="0"
+                 Width="650"
+                 Height="30"/>
+
+            <Button x:Name="btnSearch"
+                Grid.Row="0"
+                Background="#0078e7"
+                BorderThickness="0"
+                Width="50"
+                Height="32"
+                CornerRadius="0,15,15,0">
+                <Image Source="/Assets/images/magnifyIcon.png" Width="35"/>
+            </Button>
+        </StackPanel>
+
+        <Grid Grid.Row="1" VerticalAlignment="Top" RowSpacing="10" ColumnSpacing="10" Width="700">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="FILTRES" 
+                       Foreground="#7b7b7b" 
+                       FontWeight="Bold" 
+                       FontSize="15"
+                       Grid.Row="0" Grid.Column="0"
+                       />
+
+            <ComboBox x:Name="cbOS" 
+                      PlaceholderText="Système d'opération"
+                      Background="#7b7b7b"
+                      CornerRadius="15"
+                      Grid.Row="1" Grid.Column="0"
+                      HorizontalAlignment="Stretch">
+                <x:String>iOS</x:String>
+                <x:String>Android</x:String>
+            </ComboBox>
+
+            <ComboBox x:Name="cbConstructor" 
+                      PlaceholderText="Constructeur"
+                      Background="#7b7b7b"
+                      CornerRadius="15"
+                      Grid.Row="1" Grid.Column="1"
+                      HorizontalAlignment="Stretch">
+                <x:String>Apple</x:String>
+                <x:String>Samsung</x:String>
+                <x:String>Huawei</x:String>
+                <x:String>Nokia</x:String>
+            </ComboBox>
+
+            <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal">
+                <TextBlock Text="TRIER PAR:" 
+                       Foreground="#7b7b7b" 
+                       FontWeight="Bold" 
+                       FontSize="15"
+                       />
+                <ComboBox x:Name="cbSort" Padding="10,0,0,0" PlaceholderForeground="#7b7b7b" PlaceholderText="Tri" Background="Transparent" HorizontalAlignment="Stretch" FontWeight="Bold" FontSize="15" Foreground="#7b7b7b" BorderThickness="0" VerticalAlignment="Top">
+                    <x:String>PRIX CROISSANT</x:String>
+                    <x:String>PRIX DÉCROISSANT</x:String>
+                </ComboBox>
+            </StackPanel>
+        </Grid>
 
     </Grid>
 </Page>

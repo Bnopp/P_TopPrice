@@ -10,9 +10,11 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Graphics.Display;
 using Windows.UI.ViewManagement;
 
 // To learn more about WinUI, the WinUI project structure,
@@ -28,8 +30,6 @@ namespace SmartphoneManager.Pages
         public WelcomePage()
         {
             this.InitializeComponent();
-
-
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -37,5 +37,9 @@ namespace SmartphoneManager.Pages
             Frame.Navigate(typeof(SearchPage), null, new DrillInNavigationTransitionInfo());
         }
 
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            btnDefaultFocus.Focus(FocusState.Programmatic);
+        }
     }
 }

@@ -31,5 +31,10 @@ namespace SmartphoneManager.Pages
         {
             this.InitializeComponent();
         }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+            cbSort.SelectedIndex = 0;
+        }
     }
 }
