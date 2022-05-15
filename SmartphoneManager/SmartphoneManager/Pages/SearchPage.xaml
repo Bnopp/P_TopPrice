@@ -6,8 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
-    Loaded="Page_Loaded">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid RowSpacing="10">
         <Grid.Background>
@@ -36,7 +35,8 @@
                 BorderThickness="0"
                 Width="50"
                 Height="32"
-                CornerRadius="0,15,15,0">
+                CornerRadius="0,15,15,0"
+                Click="btnSearch_Click">
                 <Image Source="/Assets/images/magnifyIcon.png" Width="35"/>
             </Button>
         </StackPanel>
@@ -66,22 +66,16 @@
                       Background="#7b7b7b"
                       CornerRadius="15"
                       Grid.Row="1" Grid.Column="0"
-                      HorizontalAlignment="Stretch">
-                <x:String>iOS</x:String>
-                <x:String>Android</x:String>
-            </ComboBox>
+                      HorizontalAlignment="Stretch"
+                      SelectionChanged="cbFilters"/>
 
             <ComboBox x:Name="cbConstructor" 
                       PlaceholderText="Constructeur"
                       Background="#7b7b7b"
                       CornerRadius="15"
                       Grid.Row="1" Grid.Column="1"
-                      HorizontalAlignment="Stretch">
-                <x:String>Apple</x:String>
-                <x:String>Samsung</x:String>
-                <x:String>Huawei</x:String>
-                <x:String>Nokia</x:String>
-            </ComboBox>
+                      HorizontalAlignment="Stretch"
+                      SelectionChanged="cbFilters"/>
 
             <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal">
                 <TextBlock Text="TRIER PAR:" 
@@ -89,12 +83,35 @@
                        FontWeight="Bold" 
                        FontSize="15"
                        />
-                <ComboBox x:Name="cbSort" Padding="10,0,0,0" PlaceholderForeground="#7b7b7b" PlaceholderText="Tri" Background="Transparent" HorizontalAlignment="Stretch" FontWeight="Bold" FontSize="15" Foreground="#7b7b7b" BorderThickness="0" VerticalAlignment="Top">
+                <ComboBox x:Name="cbSort" Padding="10,0,0,0" SelectionChanged="cbFilters"  PlaceholderForeground="#7b7b7b" PlaceholderText="Tri" Background="Transparent" HorizontalAlignment="Stretch" FontWeight="Bold" FontSize="15" Foreground="#7b7b7b" BorderThickness="0" VerticalAlignment="Top">
                     <x:String>PRIX CROISSANT</x:String>
                     <x:String>PRIX DÉCROISSANT</x:String>
+                    <x:String>Taille Écran CROISSANT</x:String>
+                    <x:String>Taille Écran DÉCROISSANT</x:String>
                 </ComboBox>
             </StackPanel>
         </Grid>
+
+        <GridView x:Name="phoneLibrary" Grid.Row="2" Width="700">
+            <GridView.Resources>
+                <Style TargetType="StackPanel">
+                    <Setter Property="Background" Value="#7b7b7b"/>
+                    <Setter Property="Width" Value="226"/>
+                    <Setter Property="Height" Value="300"/>
+                    <Setter Property="CornerRadius" Value="15"/>
+                </Style>
+                <Style TargetType="Image">
+                    <Setter Property="Width" Value="125"/>
+                    <Setter Property="Margin" Value="0,25,0,15"/>
+                </Style>
+                <Style TargetType="TextBlock">
+                    <Setter Property="Width" Value="150"/>
+                    <Setter Property="TextWrapping" Value="WrapWholeWords"/>
+                    <Setter Property="TextAlignment" Value="Center"/>
+                </Style>
+            </GridView.Resources>
+
+        </GridView>
 
     </Grid>
 </Page>

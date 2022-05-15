@@ -1,0 +1,1 @@
+C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\SmartphoneManager.csproj;x64

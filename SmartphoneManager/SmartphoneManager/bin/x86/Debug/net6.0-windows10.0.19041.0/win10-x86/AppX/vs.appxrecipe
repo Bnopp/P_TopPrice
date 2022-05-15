@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-12T20:09:07.373</Modified>
+      <Modified>2022-05-15T20:22:07.789</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-05-12T20:09:07.214</Modified>
+      <Modified>2022-05-15T20:22:07.606</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\SmartphoneManager.runtimeconfig.json">
       <PackagePath>SmartphoneManager.runtimeconfig.json</PackagePath>
-      <Modified>2022-05-10T14:40:27.171</Modified>
+      <Modified>2022-05-15T14:46:12.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\SmartphoneManager.dll">
       <PackagePath>SmartphoneManager.dll</PackagePath>
-      <Modified>2022-05-12T20:09:07.132</Modified>
+      <Modified>2022-05-15T20:22:07.521</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\apphost.exe">
       <PackagePath>SmartphoneManager.exe</PackagePath>
-      <Modified>2022-05-12T20:09:07.145</Modified>
+      <Modified>2022-05-15T20:22:07.532</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\SmartphoneManager.deps.json">
       <PackagePath>SmartphoneManager.deps.json</PackagePath>
-      <Modified>2022-05-10T18:06:17.581</Modified>
+      <Modified>2022-05-15T16:36:46.547</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.4\runtimes\win-x86\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -953,6 +953,30 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2022-03-15T03:04:48.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\bouncycastle.netcore\1.8.5\lib\netstandard2.0\BouncyCastle.Crypto.dll">
+      <PackagePath>BouncyCastle.Crypto.dll</PackagePath>
+      <Modified>2019-03-18T11:53:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\google.protobuf\3.19.4\lib\net5.0\Google.Protobuf.dll">
+      <PackagePath>Google.Protobuf.dll</PackagePath>
+      <Modified>2022-01-28T08:49:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\k4os.compression.lz4\1.2.6\lib\netstandard2.0\K4os.Compression.LZ4.dll">
+      <PackagePath>K4os.Compression.LZ4.dll</PackagePath>
+      <Modified>2020-09-12T01:11:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\k4os.compression.lz4.streams\1.2.6\lib\netstandard2.1\K4os.Compression.LZ4.Streams.dll">
+      <PackagePath>K4os.Compression.LZ4.Streams.dll</PackagePath>
+      <Modified>2020-09-12T01:11:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\k4os.hash.xxhash\1.0.6\lib\netstandard2.0\K4os.Hash.xxHash.dll">
+      <PackagePath>K4os.Hash.xxHash.dll</PackagePath>
+      <Modified>2019-07-03T20:39:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\microsoft.win32.systemevents\4.7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll">
+      <PackagePath>Microsoft.Win32.SystemEvents.dll</PackagePath>
+      <Modified>2019-11-15T08:54:18.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\microsoft.windowsappsdk\1.0.0\lib\net5.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
       <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
       <Modified>2021-11-16T04:57:36.000</Modified>
@@ -985,6 +1009,38 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2021-11-16T05:08:40.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\mysql.data\8.0.29\lib\net6.0\MySql.Data.dll">
+      <PackagePath>MySql.Data.dll</PackagePath>
+      <Modified>2022-03-30T09:08:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\mysql.data\8.0.29\lib\net6.0\Ubiety.Dns.Core.dll">
+      <PackagePath>Ubiety.Dns.Core.dll</PackagePath>
+      <Modified>2022-03-30T09:07:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\mysql.data\8.0.29\lib\net6.0\ZstdNet.dll">
+      <PackagePath>ZstdNet.dll</PackagePath>
+      <Modified>2022-03-30T09:07:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\system.configuration.configurationmanager\4.4.1\lib\netstandard2.0\System.Configuration.ConfigurationManager.dll">
+      <PackagePath>System.Configuration.ConfigurationManager.dll</PackagePath>
+      <Modified>2017-11-20T18:09:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\system.drawing.common\4.7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll">
+      <PackagePath>System.Drawing.Common.dll</PackagePath>
+      <Modified>2019-11-15T08:54:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\system.security.cryptography.protecteddata\4.4.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll">
+      <PackagePath>System.Security.Cryptography.ProtectedData.dll</PackagePath>
+      <Modified>2017-07-19T10:01:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\system.security.permissions\4.7.0\lib\netcoreapp3.0\System.Security.Permissions.dll">
+      <PackagePath>System.Security.Permissions.dll</PackagePath>
+      <Modified>2019-11-15T08:56:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\system.windows.extensions\4.7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll">
+      <PackagePath>System.Windows.Extensions.dll</PackagePath>
+      <Modified>2019-11-15T08:54:30.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\microsoft.windowsappsdk\1.0.0\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2021-11-16T04:57:36.000</Modified>
@@ -1001,21 +1057,29 @@
       <PackagePath>Assets\images\bgImg.jpg</PackagePath>
       <Modified>2022-05-10T12:08:06.258</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\Keystation 88 Mk3 Software Manager Setup 1.0.0-12.exe">
-      <PackagePath>Assets\images\Keystation 88 Mk3 Software Manager Setup 1.0.0-12.exe</PackagePath>
-      <Modified>2022-05-11T16:42:45.300</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\magnifyIcon.png">
       <PackagePath>Assets\images\magnifyIcon.png</PackagePath>
       <Modified>2022-05-10T12:36:57.432</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\MelodicsV2Installer.exe">
-      <PackagePath>Assets\images\MelodicsV2Installer.exe</PackagePath>
-      <Modified>2022-05-11T16:39:59.455</Modified>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\imageMissing.png">
+      <PackagePath>Assets\images\phones\imageMissing.png</PackagePath>
+      <Modified>2022-05-15T17:04:26.604</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\SeeMusic 4.9.3.exe">
-      <PackagePath>Assets\images\SeeMusic 4.9.3.exe</PackagePath>
-      <Modified>2022-05-11T19:11:28.082</Modified>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\iPhone 11.png">
+      <PackagePath>Assets\images\phones\iPhone 11.png</PackagePath>
+      <Modified>2022-05-15T16:48:00.392</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\iPhone 12.png">
+      <PackagePath>Assets\images\phones\iPhone 12.png</PackagePath>
+      <Modified>2022-05-15T16:47:30.462</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\iPhone 13.png">
+      <PackagePath>Assets\images\phones\iPhone 13.png</PackagePath>
+      <Modified>2022-05-15T16:46:58.724</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\iPhone SE.png">
+      <PackagePath>Assets\images\phones\iPhone SE.png</PackagePath>
+      <Modified>2022-05-15T16:46:25.672</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\titleImage.png">
       <PackagePath>Assets\images\titleImage.png</PackagePath>

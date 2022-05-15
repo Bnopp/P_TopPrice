@@ -1,0 +1,48 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="SmartphoneManager.Pages.WelcomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SmartphoneManager.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                        >
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Assets/images/bgimg.jpg" Stretch="UniformToFill" />
+        </Grid.Background>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button x:ConnectionId='2' x:Name="btnDefaultFocus" Width="0" Height="0"/>
+
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="SMARTPHONE MANAGER" Foreground="#7b7b7b" FontWeight="Bold" FontSize="15" Grid.Row="0" VerticalAlignment="Bottom" Margin="75,0,0,0"/>
+
+            <TextBlock Text="Trouvez le smartphone parfait pour vous" FontWeight="Bold" FontSize="40" TextWrapping="Wrap" Grid.Row="1" VerticalAlignment="Top" Margin="75,0,0,0"/>
+            <Image Source="/Assets/images/underline.png" Width="100" Grid.Row="1" VerticalAlignment="Bottom" Margin="0,0,65,50"/>
+
+            <Button x:ConnectionId='3' x:Name="btnLaunch"                      Grid.Row="2" Background="#0078e7" CornerRadius="15" VerticalAlignment="Center" Margin="75,0,0,0">
+                <StackPanel Orientation="Horizontal" Padding="5,0,5,0">
+                    <Image Source="/Assets/images/magnifyIcon.png" Width="35"/>
+                    <TextBlock Text="Recherchez Maintenant" FontWeight="Bold" FontSize="25" TextAlignment="Center" Padding="5,0,0,5"/>
+                </StackPanel>
+            </Button>
+
+        </Grid>
+
+        <Image Source="/Assets/images/titleImage.png" Stretch="UniformToFill" Grid.Column="1"/>
+    </Grid>
+</Page>
+

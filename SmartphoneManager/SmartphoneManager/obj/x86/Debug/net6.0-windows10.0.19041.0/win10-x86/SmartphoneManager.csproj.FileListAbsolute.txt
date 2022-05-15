@@ -575,3 +575,17 @@ C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\o
 C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Pages\SearchPage.g.cs
 C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Pages\SearchPage.xaml
 C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Pages\SearchPage.xbf
+C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\BouncyCastle.Crypto.dll
+C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Google.Protobuf.dll
+C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\K4os.Compression.LZ4.dll
+C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\K4os.Compression.LZ4.Streams.dll
+C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\K4os.Hash.xxHash.dll
+C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Microsoft.Win32.SystemEvents.dll
+C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\MySql.Data.dll
+C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\Ubiety.Dns.Core.dll
+C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\ZstdNet.dll
+C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\System.Configuration.ConfigurationManager.dll
+C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\System.Drawing.Common.dll
+C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\System.Security.Cryptography.ProtectedData.dll
+C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\System.Security.Permissions.dll
+C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\System.Windows.Extensions.dll

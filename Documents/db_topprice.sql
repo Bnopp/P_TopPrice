@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: May 05, 2022 at 07:36 PM
+-- Generation Time: May 15, 2022 at 08:03 PM
 -- Server version: 5.7.11
 -- PHP Version: 8.0.1
 
@@ -20,8 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `db_topprice`
 --
-
-Create Database 'db_topprice';
 
 -- --------------------------------------------------------
 
@@ -40,7 +38,8 @@ CREATE TABLE `t_brand` (
 --
 
 INSERT INTO `t_brand` (`idBrand`, `braName`, `fkOS`) VALUES
-(1, 'Apple Inc.', 1);
+(1, 'Apple Inc.', 1),
+(2, 'Samsung', 2);
 
 -- --------------------------------------------------------
 
@@ -76,7 +75,8 @@ CREATE TABLE `t_os` (
 --
 
 INSERT INTO `t_os` (`idOS`, `osName`) VALUES
-(1, 'IOS');
+(1, 'iOS'),
+(2, 'Android');
 
 -- --------------------------------------------------------
 
@@ -188,7 +188,7 @@ ALTER TABLE `t_smartphone`
 -- AUTO_INCREMENT for table `t_brand`
 --
 ALTER TABLE `t_brand`
-  MODIFY `idBrand` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `idBrand` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `t_constructor`
@@ -200,7 +200,7 @@ ALTER TABLE `t_constructor`
 -- AUTO_INCREMENT for table `t_os`
 --
 ALTER TABLE `t_os`
-  MODIFY `idOS` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `idOS` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `t_provider`
