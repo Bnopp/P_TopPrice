@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>fe03718b-9d95-4508-a984-07e392149d19</PackageIdentityName>
-    <PackageIdentityPublisher>CN=pl03jlu</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=Serghei Diulgherov</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,40 +18,40 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\AppX</LayoutDir>
-    <RegisteredManifestChecksum>160DADB36C8093E0500655DBEF05F6CF4A1F1E5624EEBC1149D27C31712BA631</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>fe03718b-9d95-4508-a984-07e392149d19_1.0.0.0_x86__3gfrrt52bn7s2</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>fe03718b-9d95-4508-a984-07e392149d19_3gfrrt52bn7s2!App</RegisteredUserModeAppID>
+    <RegisteredManifestChecksum>C28FF51D02C65BB9FFE6F871A40DA950E10A84268D52026D25D27F2939F5CD4E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>fe03718b-9d95-4508-a984-07e392149d19_1.0.0.0_x86__e1gwnx2ym1jry</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>fe03718b-9d95-4508-a984-07e392149d19_e1gwnx2ym1jry!App</RegisteredUserModeAppID>
     <RegisteredPackageID>fe03718b-9d95-4508-a984-07e392149d19</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=pl03jlu</RegisteredPackagePublisher>
+    <RegisteredPackagePublisher>CN=Serghei Diulgherov</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-15T20:22:07.789</Modified>
+      <Modified>2022-05-26T17:04:49.682</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-05-15T20:22:07.606</Modified>
+      <Modified>2022-05-26T17:04:49.409</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\SmartphoneManager.runtimeconfig.json">
       <PackagePath>SmartphoneManager.runtimeconfig.json</PackagePath>
-      <Modified>2022-05-15T14:46:12.584</Modified>
+      <Modified>2022-05-26T13:46:15.314</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\SmartphoneManager.dll">
       <PackagePath>SmartphoneManager.dll</PackagePath>
-      <Modified>2022-05-15T20:22:07.521</Modified>
+      <Modified>2022-05-26T17:04:49.288</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\apphost.exe">
       <PackagePath>SmartphoneManager.exe</PackagePath>
-      <Modified>2022-05-15T20:22:07.532</Modified>
+      <Modified>2022-05-26T17:04:49.299</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\SmartphoneManager.deps.json">
       <PackagePath>SmartphoneManager.deps.json</PackagePath>
-      <Modified>2022-05-15T16:36:46.547</Modified>
+      <Modified>2022-05-26T16:21:29.512</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\microsoft.netcore.app.runtime.win-x86\6.0.4\runtimes\win-x86\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -957,9 +957,25 @@
       <PackagePath>BouncyCastle.Crypto.dll</PackagePath>
       <Modified>2019-03-18T11:53:36.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\communitytoolkit.common\7.1.2\lib\net5.0\CommunityToolkit.Common.dll">
+      <PackagePath>CommunityToolkit.Common.dll</PackagePath>
+      <Modified>2021-11-18T21:56:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\communitytoolkit.winui\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.dll">
+      <PackagePath>CommunityToolkit.WinUI.dll</PackagePath>
+      <Modified>2021-11-18T21:56:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\communitytoolkit.winui.ui\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.dll">
+      <PackagePath>CommunityToolkit.WinUI.UI.dll</PackagePath>
+      <Modified>2021-11-18T21:56:42.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\google.protobuf\3.19.4\lib\net5.0\Google.Protobuf.dll">
       <PackagePath>Google.Protobuf.dll</PackagePath>
       <Modified>2022-01-28T08:49:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\h.oxyplot.winui\0.9.19\lib\net6.0-windows10.0.18362\H.OxyPlot.WinUI.dll">
+      <PackagePath>H.OxyPlot.WinUI.dll</PackagePath>
+      <Modified>2022-02-15T09:49:12.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\k4os.compression.lz4\1.2.6\lib\netstandard2.0\K4os.Compression.LZ4.dll">
       <PackagePath>K4os.Compression.LZ4.dll</PackagePath>
@@ -1021,6 +1037,10 @@
       <PackagePath>ZstdNet.dll</PackagePath>
       <Modified>2022-03-30T09:07:38.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\oxyplot.core\2.1.0\lib\netstandard2.0\OxyPlot.dll">
+      <PackagePath>OxyPlot.dll</PackagePath>
+      <Modified>2021-10-04T06:56:36.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\system.configuration.configurationmanager\4.4.1\lib\netstandard2.0\System.Configuration.ConfigurationManager.dll">
       <PackagePath>System.Configuration.ConfigurationManager.dll</PackagePath>
       <Modified>2017-11-20T18:09:04.000</Modified>
@@ -1044,6 +1064,18 @@
     <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\microsoft.windowsappsdk\1.0.0\runtimes\win10-x86\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2021-11-16T04:57:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\communitytoolkit.winui\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.pri">
+      <PackagePath>CommunityToolkit.WinUI.pri</PackagePath>
+      <Modified>2021-11-18T21:50:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\communitytoolkit.winui.ui\7.1.2\lib\net5.0-windows10.0.18362\CommunityToolkit.WinUI.UI.pri">
+      <PackagePath>CommunityToolkit.WinUI.UI.pri</PackagePath>
+      <Modified>2021-11-18T21:50:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\.nuget\packages\h.oxyplot.winui\0.9.19\lib\net6.0-windows10.0.18362\H.OxyPlot.WinUI.pri">
+      <PackagePath>H.OxyPlot.WinUI.pri</PackagePath>
+      <Modified>2022-02-15T09:49:12.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\appIcon.png">
       <PackagePath>Assets\images\appIcon.png</PackagePath>

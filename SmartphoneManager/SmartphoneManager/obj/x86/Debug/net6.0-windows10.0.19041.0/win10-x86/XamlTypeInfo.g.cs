@@ -224,29 +224,67 @@ namespace SmartphoneManager.SmartphoneManager_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[10];
+            _typeNameTable = new string[29];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
             _typeNameTable[3] = "Boolean";
             _typeNameTable[4] = "SmartphoneManager.MainWindow";
             _typeNameTable[5] = "Microsoft.UI.Xaml.Window";
-            _typeNameTable[6] = "SmartphoneManager.Pages.SearchPage";
-            _typeNameTable[7] = "Microsoft.UI.Xaml.Controls.Page";
-            _typeNameTable[8] = "Microsoft.UI.Xaml.Controls.UserControl";
-            _typeNameTable[9] = "SmartphoneManager.Pages.WelcomePage";
+            _typeNameTable[6] = "OxyPlot.PlotView";
+            _typeNameTable[7] = "OxyPlot.PlotViewBase";
+            _typeNameTable[8] = "Microsoft.UI.Xaml.Controls.Control";
+            _typeNameTable[9] = "OxyPlot.TextMeasurementMethod";
+            _typeNameTable[10] = "System.Enum";
+            _typeNameTable[11] = "System.ValueType";
+            _typeNameTable[12] = "OxyPlot.IPlotController";
+            _typeNameTable[13] = "OxyPlot.PlotModel";
+            _typeNameTable[14] = "OxyPlot.Model";
+            _typeNameTable[15] = "OxyPlot.OxyRect";
+            _typeNameTable[16] = "System.Collections.ObjectModel.ObservableCollection`1<OxyPlot.Controls.TrackerDefinition>";
+            _typeNameTable[17] = "System.Collections.ObjectModel.Collection`1<OxyPlot.Controls.TrackerDefinition>";
+            _typeNameTable[18] = "OxyPlot.Controls.TrackerDefinition";
+            _typeNameTable[19] = "Microsoft.UI.Xaml.FrameworkElement";
+            _typeNameTable[20] = "String";
+            _typeNameTable[21] = "Microsoft.UI.Xaml.Controls.ControlTemplate";
+            _typeNameTable[22] = "Microsoft.UI.Input.InputSystemCursorShape";
+            _typeNameTable[23] = "SmartphoneManager.Pages.DetailPage";
+            _typeNameTable[24] = "Microsoft.UI.Xaml.Controls.Page";
+            _typeNameTable[25] = "Microsoft.UI.Xaml.Controls.UserControl";
+            _typeNameTable[26] = "SmartphoneManager.Pages.DetailWindow";
+            _typeNameTable[27] = "SmartphoneManager.Pages.SearchPage";
+            _typeNameTable[28] = "SmartphoneManager.Pages.WelcomePage";
 
-            _typeTable = new global::System.Type[10];
+            _typeTable = new global::System.Type[29];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
             _typeTable[3] = typeof(global::System.Boolean);
             _typeTable[4] = typeof(global::SmartphoneManager.MainWindow);
             _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Window);
-            _typeTable[6] = typeof(global::SmartphoneManager.Pages.SearchPage);
-            _typeTable[7] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
-            _typeTable[8] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
-            _typeTable[9] = typeof(global::SmartphoneManager.Pages.WelcomePage);
+            _typeTable[6] = typeof(global::OxyPlot.PlotView);
+            _typeTable[7] = typeof(global::OxyPlot.PlotViewBase);
+            _typeTable[8] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
+            _typeTable[9] = typeof(global::OxyPlot.TextMeasurementMethod);
+            _typeTable[10] = typeof(global::System.Enum);
+            _typeTable[11] = typeof(global::System.ValueType);
+            _typeTable[12] = typeof(global::OxyPlot.IPlotController);
+            _typeTable[13] = typeof(global::OxyPlot.PlotModel);
+            _typeTable[14] = typeof(global::OxyPlot.Model);
+            _typeTable[15] = typeof(global::OxyPlot.OxyRect);
+            _typeTable[16] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::OxyPlot.Controls.TrackerDefinition>);
+            _typeTable[17] = typeof(global::System.Collections.ObjectModel.Collection<global::OxyPlot.Controls.TrackerDefinition>);
+            _typeTable[18] = typeof(global::OxyPlot.Controls.TrackerDefinition);
+            _typeTable[19] = typeof(global::Microsoft.UI.Xaml.FrameworkElement);
+            _typeTable[20] = typeof(global::System.String);
+            _typeTable[21] = typeof(global::Microsoft.UI.Xaml.Controls.ControlTemplate);
+            _typeTable[22] = typeof(global::Microsoft.UI.Input.InputSystemCursorShape);
+            _typeTable[23] = typeof(global::SmartphoneManager.Pages.DetailPage);
+            _typeTable[24] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
+            _typeTable[25] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
+            _typeTable[26] = typeof(global::SmartphoneManager.Pages.DetailWindow);
+            _typeTable[27] = typeof(global::SmartphoneManager.Pages.SearchPage);
+            _typeTable[28] = typeof(global::SmartphoneManager.Pages.WelcomePage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -283,14 +321,32 @@ namespace SmartphoneManager.SmartphoneManager_XamlTypeInfo
 
         private object Activate_0_XamlControlsResources() { return new global::Microsoft.UI.Xaml.Controls.XamlControlsResources(); }
         private object Activate_4_MainWindow() { return new global::SmartphoneManager.MainWindow(); }
-        private object Activate_6_SearchPage() { return new global::SmartphoneManager.Pages.SearchPage(); }
-        private object Activate_9_WelcomePage() { return new global::SmartphoneManager.Pages.WelcomePage(); }
+        private object Activate_6_PlotView() { return new global::OxyPlot.PlotView(); }
+        private object Activate_13_PlotModel() { return new global::OxyPlot.PlotModel(); }
+        private object Activate_16_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::OxyPlot.Controls.TrackerDefinition>(); }
+        private object Activate_17_Collection() { return new global::System.Collections.ObjectModel.Collection<global::OxyPlot.Controls.TrackerDefinition>(); }
+        private object Activate_18_TrackerDefinition() { return new global::OxyPlot.Controls.TrackerDefinition(); }
+        private object Activate_23_DetailPage() { return new global::SmartphoneManager.Pages.DetailPage(); }
+        private object Activate_27_SearchPage() { return new global::SmartphoneManager.Pages.SearchPage(); }
+        private object Activate_28_WelcomePage() { return new global::SmartphoneManager.Pages.WelcomePage(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
             var newKey = (global::System.Object)key;
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
+        }
+        private void VectorAdd_16_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::OxyPlot.Controls.TrackerDefinition>)instance;
+            var newItem = (global::OxyPlot.Controls.TrackerDefinition)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_17_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::OxyPlot.Controls.TrackerDefinition>)instance;
+            var newItem = (global::OxyPlot.Controls.TrackerDefinition)item;
+            collection.Add(newItem);
         }
 
         private global::Microsoft.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
@@ -334,24 +390,163 @@ namespace SmartphoneManager.SmartphoneManager_XamlTypeInfo
                 xamlType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 6:   //  SmartphoneManager.Pages.SearchPage
+            case 6:   //  OxyPlot.PlotView
+                userType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("OxyPlot.PlotViewBase"));
+                userType.Activator = Activate_6_PlotView;
+                userType.AddMemberName("HandleRightClicks");
+                userType.AddMemberName("DisconnectCanvasWhileUpdating");
+                userType.AddMemberName("TextMeasurementMethod");
+                xamlType = userType;
+                break;
+
+            case 7:   //  OxyPlot.PlotViewBase
+                userType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
+                userType.AddMemberName("ActualController");
+                userType.AddMemberName("ActualModel");
+                userType.AddMemberName("ClientArea");
+                userType.AddMemberName("TrackerDefinitions");
+                userType.AddMemberName("Controller");
+                userType.AddMemberName("DefaultTrackerTemplate");
+                userType.AddMemberName("IsMouseWheelEnabled");
+                userType.AddMemberName("Model");
+                userType.AddMemberName("PanCursor");
+                userType.AddMemberName("ZoomHorizontalCursor");
+                userType.AddMemberName("ZoomRectangleCursor");
+                userType.AddMemberName("ZoomRectangleTemplate");
+                userType.AddMemberName("ZoomVerticalCursor");
+                xamlType = userType;
+                break;
+
+            case 8:   //  Microsoft.UI.Xaml.Controls.Control
+                xamlType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 9:   //  OxyPlot.TextMeasurementMethod
+                userType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("TextBlock", global::OxyPlot.TextMeasurementMethod.TextBlock);
+                userType.AddEnumValue("GlyphTypeface", global::OxyPlot.TextMeasurementMethod.GlyphTypeface);
+                xamlType = userType;
+                break;
+
+            case 10:   //  System.Enum
+                userType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                xamlType = userType;
+                break;
+
+            case 11:   //  System.ValueType
+                userType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case 12:   //  OxyPlot.IPlotController
+                userType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 13:   //  OxyPlot.PlotModel
+                userType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("OxyPlot.Model"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 14:   //  OxyPlot.Model
+                userType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case 15:   //  OxyPlot.OxyRect
+                userType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 16:   //  System.Collections.ObjectModel.ObservableCollection`1<OxyPlot.Controls.TrackerDefinition>
+                userType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<OxyPlot.Controls.TrackerDefinition>"));
+                userType.CollectionAdd = VectorAdd_16_ObservableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 17:   //  System.Collections.ObjectModel.Collection`1<OxyPlot.Controls.TrackerDefinition>
+                userType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_17_Collection;
+                userType.CollectionAdd = VectorAdd_17_Collection;
+                xamlType = userType;
+                break;
+
+            case 18:   //  OxyPlot.Controls.TrackerDefinition
+                userType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.FrameworkElement"));
+                userType.Activator = Activate_18_TrackerDefinition;
+                userType.AddMemberName("TrackerKey");
+                userType.AddMemberName("TrackerTemplate");
+                xamlType = userType;
+                break;
+
+            case 19:   //  Microsoft.UI.Xaml.FrameworkElement
+                xamlType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 20:   //  String
+                xamlType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 21:   //  Microsoft.UI.Xaml.Controls.ControlTemplate
+                xamlType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 22:   //  Microsoft.UI.Input.InputSystemCursorShape
+                userType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Arrow", global::Microsoft.UI.Input.InputSystemCursorShape.Arrow);
+                userType.AddEnumValue("Cross", global::Microsoft.UI.Input.InputSystemCursorShape.Cross);
+                userType.AddEnumValue("Hand", global::Microsoft.UI.Input.InputSystemCursorShape.Hand);
+                userType.AddEnumValue("Help", global::Microsoft.UI.Input.InputSystemCursorShape.Help);
+                userType.AddEnumValue("IBeam", global::Microsoft.UI.Input.InputSystemCursorShape.IBeam);
+                userType.AddEnumValue("SizeAll", global::Microsoft.UI.Input.InputSystemCursorShape.SizeAll);
+                userType.AddEnumValue("SizeNortheastSouthwest", global::Microsoft.UI.Input.InputSystemCursorShape.SizeNortheastSouthwest);
+                userType.AddEnumValue("SizeNorthSouth", global::Microsoft.UI.Input.InputSystemCursorShape.SizeNorthSouth);
+                userType.AddEnumValue("SizeNorthwestSoutheast", global::Microsoft.UI.Input.InputSystemCursorShape.SizeNorthwestSoutheast);
+                userType.AddEnumValue("SizeWestEast", global::Microsoft.UI.Input.InputSystemCursorShape.SizeWestEast);
+                userType.AddEnumValue("UniversalNo", global::Microsoft.UI.Input.InputSystemCursorShape.UniversalNo);
+                userType.AddEnumValue("UpArrow", global::Microsoft.UI.Input.InputSystemCursorShape.UpArrow);
+                userType.AddEnumValue("Wait", global::Microsoft.UI.Input.InputSystemCursorShape.Wait);
+                userType.AddEnumValue("Pin", global::Microsoft.UI.Input.InputSystemCursorShape.Pin);
+                userType.AddEnumValue("Person", global::Microsoft.UI.Input.InputSystemCursorShape.Person);
+                userType.AddEnumValue("AppStarting", global::Microsoft.UI.Input.InputSystemCursorShape.AppStarting);
+                xamlType = userType;
+                break;
+
+            case 23:   //  SmartphoneManager.Pages.DetailPage
                 userType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_SearchPage;
+                userType.Activator = Activate_23_DetailPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 7:   //  Microsoft.UI.Xaml.Controls.Page
+            case 24:   //  Microsoft.UI.Xaml.Controls.Page
                 xamlType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 8:   //  Microsoft.UI.Xaml.Controls.UserControl
+            case 25:   //  Microsoft.UI.Xaml.Controls.UserControl
                 xamlType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 9:   //  SmartphoneManager.Pages.WelcomePage
+            case 26:   //  SmartphoneManager.Pages.DetailWindow
+                userType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 27:   //  SmartphoneManager.Pages.SearchPage
                 userType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_WelcomePage;
+                userType.Activator = Activate_27_SearchPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 28:   //  SmartphoneManager.Pages.WelcomePage
+                userType = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_28_WelcomePage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -368,6 +563,8 @@ namespace SmartphoneManager.SmartphoneManager_XamlTypeInfo
                 {
                     var otherProviders = new global::System.Collections.Generic.List<global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider>();
                     global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider provider;
+                    provider = new global::H.OxyPlot.WinUI.H_OxyPlot_WinUI_XamlTypeInfo.XamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
                     provider = new global::Microsoft.UI.Xaml.XamlTypeInfo.XamlControlsXamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
                     otherProviders.Add(provider); 
                     _otherProviders = otherProviders;
@@ -424,6 +621,166 @@ namespace SmartphoneManager.SmartphoneManager_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.XamlControlsResources)instance;
             that.UseCompactResources = (global::System.Boolean)Value;
         }
+        private object get_1_PlotView_HandleRightClicks(object instance)
+        {
+            var that = (global::OxyPlot.PlotView)instance;
+            return that.HandleRightClicks;
+        }
+        private void set_1_PlotView_HandleRightClicks(object instance, object Value)
+        {
+            var that = (global::OxyPlot.PlotView)instance;
+            that.HandleRightClicks = (global::System.Boolean)Value;
+        }
+        private object get_2_PlotView_DisconnectCanvasWhileUpdating(object instance)
+        {
+            var that = (global::OxyPlot.PlotView)instance;
+            return that.DisconnectCanvasWhileUpdating;
+        }
+        private void set_2_PlotView_DisconnectCanvasWhileUpdating(object instance, object Value)
+        {
+            var that = (global::OxyPlot.PlotView)instance;
+            that.DisconnectCanvasWhileUpdating = (global::System.Boolean)Value;
+        }
+        private object get_3_PlotView_TextMeasurementMethod(object instance)
+        {
+            var that = (global::OxyPlot.PlotView)instance;
+            return that.TextMeasurementMethod;
+        }
+        private void set_3_PlotView_TextMeasurementMethod(object instance, object Value)
+        {
+            var that = (global::OxyPlot.PlotView)instance;
+            that.TextMeasurementMethod = (global::OxyPlot.TextMeasurementMethod)Value;
+        }
+        private object get_4_PlotViewBase_ActualController(object instance)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            return that.ActualController;
+        }
+        private object get_5_PlotViewBase_ActualModel(object instance)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            return that.ActualModel;
+        }
+        private object get_6_PlotViewBase_ClientArea(object instance)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            return that.ClientArea;
+        }
+        private object get_7_PlotViewBase_TrackerDefinitions(object instance)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            return that.TrackerDefinitions;
+        }
+        private object get_8_TrackerDefinition_TrackerKey(object instance)
+        {
+            var that = (global::OxyPlot.Controls.TrackerDefinition)instance;
+            return that.TrackerKey;
+        }
+        private void set_8_TrackerDefinition_TrackerKey(object instance, object Value)
+        {
+            var that = (global::OxyPlot.Controls.TrackerDefinition)instance;
+            that.TrackerKey = (global::System.String)Value;
+        }
+        private object get_9_TrackerDefinition_TrackerTemplate(object instance)
+        {
+            var that = (global::OxyPlot.Controls.TrackerDefinition)instance;
+            return that.TrackerTemplate;
+        }
+        private void set_9_TrackerDefinition_TrackerTemplate(object instance, object Value)
+        {
+            var that = (global::OxyPlot.Controls.TrackerDefinition)instance;
+            that.TrackerTemplate = (global::Microsoft.UI.Xaml.Controls.ControlTemplate)Value;
+        }
+        private object get_10_PlotViewBase_Controller(object instance)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            return that.Controller;
+        }
+        private void set_10_PlotViewBase_Controller(object instance, object Value)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            that.Controller = (global::OxyPlot.IPlotController)Value;
+        }
+        private object get_11_PlotViewBase_DefaultTrackerTemplate(object instance)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            return that.DefaultTrackerTemplate;
+        }
+        private void set_11_PlotViewBase_DefaultTrackerTemplate(object instance, object Value)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            that.DefaultTrackerTemplate = (global::Microsoft.UI.Xaml.Controls.ControlTemplate)Value;
+        }
+        private object get_12_PlotViewBase_IsMouseWheelEnabled(object instance)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            return that.IsMouseWheelEnabled;
+        }
+        private void set_12_PlotViewBase_IsMouseWheelEnabled(object instance, object Value)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            that.IsMouseWheelEnabled = (global::System.Boolean)Value;
+        }
+        private object get_13_PlotViewBase_Model(object instance)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            return that.Model;
+        }
+        private void set_13_PlotViewBase_Model(object instance, object Value)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            that.Model = (global::OxyPlot.PlotModel)Value;
+        }
+        private object get_14_PlotViewBase_PanCursor(object instance)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            return that.PanCursor;
+        }
+        private void set_14_PlotViewBase_PanCursor(object instance, object Value)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            that.PanCursor = (global::Microsoft.UI.Input.InputSystemCursorShape)Value;
+        }
+        private object get_15_PlotViewBase_ZoomHorizontalCursor(object instance)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            return that.ZoomHorizontalCursor;
+        }
+        private void set_15_PlotViewBase_ZoomHorizontalCursor(object instance, object Value)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            that.ZoomHorizontalCursor = (global::Microsoft.UI.Input.InputSystemCursorShape)Value;
+        }
+        private object get_16_PlotViewBase_ZoomRectangleCursor(object instance)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            return that.ZoomRectangleCursor;
+        }
+        private void set_16_PlotViewBase_ZoomRectangleCursor(object instance, object Value)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            that.ZoomRectangleCursor = (global::Microsoft.UI.Input.InputSystemCursorShape)Value;
+        }
+        private object get_17_PlotViewBase_ZoomRectangleTemplate(object instance)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            return that.ZoomRectangleTemplate;
+        }
+        private void set_17_PlotViewBase_ZoomRectangleTemplate(object instance, object Value)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            that.ZoomRectangleTemplate = (global::Microsoft.UI.Xaml.Controls.ControlTemplate)Value;
+        }
+        private object get_18_PlotViewBase_ZoomVerticalCursor(object instance)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            return that.ZoomVerticalCursor;
+        }
+        private void set_18_PlotViewBase_ZoomVerticalCursor(object instance, object Value)
+        {
+            var that = (global::OxyPlot.PlotViewBase)instance;
+            that.ZoomVerticalCursor = (global::Microsoft.UI.Input.InputSystemCursorShape)Value;
+        }
 
         private global::Microsoft.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
@@ -438,6 +795,127 @@ namespace SmartphoneManager.SmartphoneManager_XamlTypeInfo
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_0_XamlControlsResources_UseCompactResources;
                 xamlMember.Setter = set_0_XamlControlsResources_UseCompactResources;
+                break;
+            case "OxyPlot.PlotView.HandleRightClicks":
+                userType = (global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OxyPlot.PlotView");
+                xamlMember = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlMember(this, "HandleRightClicks", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_1_PlotView_HandleRightClicks;
+                xamlMember.Setter = set_1_PlotView_HandleRightClicks;
+                break;
+            case "OxyPlot.PlotView.DisconnectCanvasWhileUpdating":
+                userType = (global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OxyPlot.PlotView");
+                xamlMember = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlMember(this, "DisconnectCanvasWhileUpdating", "Boolean");
+                xamlMember.Getter = get_2_PlotView_DisconnectCanvasWhileUpdating;
+                xamlMember.Setter = set_2_PlotView_DisconnectCanvasWhileUpdating;
+                break;
+            case "OxyPlot.PlotView.TextMeasurementMethod":
+                userType = (global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OxyPlot.PlotView");
+                xamlMember = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlMember(this, "TextMeasurementMethod", "OxyPlot.TextMeasurementMethod");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_3_PlotView_TextMeasurementMethod;
+                xamlMember.Setter = set_3_PlotView_TextMeasurementMethod;
+                break;
+            case "OxyPlot.PlotViewBase.ActualController":
+                userType = (global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OxyPlot.PlotViewBase");
+                xamlMember = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlMember(this, "ActualController", "OxyPlot.IPlotController");
+                xamlMember.Getter = get_4_PlotViewBase_ActualController;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "OxyPlot.PlotViewBase.ActualModel":
+                userType = (global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OxyPlot.PlotViewBase");
+                xamlMember = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlMember(this, "ActualModel", "OxyPlot.PlotModel");
+                xamlMember.Getter = get_5_PlotViewBase_ActualModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "OxyPlot.PlotViewBase.ClientArea":
+                userType = (global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OxyPlot.PlotViewBase");
+                xamlMember = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlMember(this, "ClientArea", "OxyPlot.OxyRect");
+                xamlMember.Getter = get_6_PlotViewBase_ClientArea;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "OxyPlot.PlotViewBase.TrackerDefinitions":
+                userType = (global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OxyPlot.PlotViewBase");
+                xamlMember = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlMember(this, "TrackerDefinitions", "System.Collections.ObjectModel.ObservableCollection`1<OxyPlot.Controls.TrackerDefinition>");
+                xamlMember.Getter = get_7_PlotViewBase_TrackerDefinitions;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "OxyPlot.Controls.TrackerDefinition.TrackerKey":
+                userType = (global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OxyPlot.Controls.TrackerDefinition");
+                xamlMember = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlMember(this, "TrackerKey", "String");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_8_TrackerDefinition_TrackerKey;
+                xamlMember.Setter = set_8_TrackerDefinition_TrackerKey;
+                break;
+            case "OxyPlot.Controls.TrackerDefinition.TrackerTemplate":
+                userType = (global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OxyPlot.Controls.TrackerDefinition");
+                xamlMember = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlMember(this, "TrackerTemplate", "Microsoft.UI.Xaml.Controls.ControlTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_9_TrackerDefinition_TrackerTemplate;
+                xamlMember.Setter = set_9_TrackerDefinition_TrackerTemplate;
+                break;
+            case "OxyPlot.PlotViewBase.Controller":
+                userType = (global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OxyPlot.PlotViewBase");
+                xamlMember = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlMember(this, "Controller", "OxyPlot.IPlotController");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_10_PlotViewBase_Controller;
+                xamlMember.Setter = set_10_PlotViewBase_Controller;
+                break;
+            case "OxyPlot.PlotViewBase.DefaultTrackerTemplate":
+                userType = (global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OxyPlot.PlotViewBase");
+                xamlMember = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlMember(this, "DefaultTrackerTemplate", "Microsoft.UI.Xaml.Controls.ControlTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_11_PlotViewBase_DefaultTrackerTemplate;
+                xamlMember.Setter = set_11_PlotViewBase_DefaultTrackerTemplate;
+                break;
+            case "OxyPlot.PlotViewBase.IsMouseWheelEnabled":
+                userType = (global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OxyPlot.PlotViewBase");
+                xamlMember = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlMember(this, "IsMouseWheelEnabled", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_12_PlotViewBase_IsMouseWheelEnabled;
+                xamlMember.Setter = set_12_PlotViewBase_IsMouseWheelEnabled;
+                break;
+            case "OxyPlot.PlotViewBase.Model":
+                userType = (global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OxyPlot.PlotViewBase");
+                xamlMember = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlMember(this, "Model", "OxyPlot.PlotModel");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_13_PlotViewBase_Model;
+                xamlMember.Setter = set_13_PlotViewBase_Model;
+                break;
+            case "OxyPlot.PlotViewBase.PanCursor":
+                userType = (global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OxyPlot.PlotViewBase");
+                xamlMember = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlMember(this, "PanCursor", "Microsoft.UI.Input.InputSystemCursorShape");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_14_PlotViewBase_PanCursor;
+                xamlMember.Setter = set_14_PlotViewBase_PanCursor;
+                break;
+            case "OxyPlot.PlotViewBase.ZoomHorizontalCursor":
+                userType = (global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OxyPlot.PlotViewBase");
+                xamlMember = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlMember(this, "ZoomHorizontalCursor", "Microsoft.UI.Input.InputSystemCursorShape");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_15_PlotViewBase_ZoomHorizontalCursor;
+                xamlMember.Setter = set_15_PlotViewBase_ZoomHorizontalCursor;
+                break;
+            case "OxyPlot.PlotViewBase.ZoomRectangleCursor":
+                userType = (global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OxyPlot.PlotViewBase");
+                xamlMember = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlMember(this, "ZoomRectangleCursor", "Microsoft.UI.Input.InputSystemCursorShape");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_16_PlotViewBase_ZoomRectangleCursor;
+                xamlMember.Setter = set_16_PlotViewBase_ZoomRectangleCursor;
+                break;
+            case "OxyPlot.PlotViewBase.ZoomRectangleTemplate":
+                userType = (global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OxyPlot.PlotViewBase");
+                xamlMember = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlMember(this, "ZoomRectangleTemplate", "Microsoft.UI.Xaml.Controls.ControlTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_17_PlotViewBase_ZoomRectangleTemplate;
+                xamlMember.Setter = set_17_PlotViewBase_ZoomRectangleTemplate;
+                break;
+            case "OxyPlot.PlotViewBase.ZoomVerticalCursor":
+                userType = (global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlUserType)GetXamlTypeByName("OxyPlot.PlotViewBase");
+                xamlMember = new global::SmartphoneManager.SmartphoneManager_XamlTypeInfo.XamlMember(this, "ZoomVerticalCursor", "Microsoft.UI.Input.InputSystemCursorShape");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_18_PlotViewBase_ZoomVerticalCursor;
+                xamlMember.Setter = set_18_PlotViewBase_ZoomVerticalCursor;
                 break;
             }
             return xamlMember;

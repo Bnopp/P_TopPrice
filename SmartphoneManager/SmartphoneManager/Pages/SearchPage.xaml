@@ -100,6 +100,10 @@
                     <Setter Property="Height" Value="300"/>
                     <Setter Property="CornerRadius" Value="15"/>
                 </Style>
+                <Style TargetType="Button">
+                    <Setter Property="CornerRadius" Value="15"/>
+                    <Setter Property="Padding" Value="0"/>
+                </Style>
                 <Style TargetType="Image">
                     <Setter Property="Width" Value="125"/>
                     <Setter Property="Margin" Value="0,25,0,15"/>

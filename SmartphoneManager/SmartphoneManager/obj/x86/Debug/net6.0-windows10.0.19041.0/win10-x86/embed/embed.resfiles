@@ -1,4 +1,6 @@
 App.xbf
 MainWindow.xbf
+Pages\DetailPage.xbf
+Pages\DetailWindow.xbf
 Pages\SearchPage.xbf
 Pages\WelcomePage.xbf

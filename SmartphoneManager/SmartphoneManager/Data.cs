@@ -2,6 +2,7 @@
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -102,7 +103,7 @@ namespace SmartphoneManager
 
             if (cbBrand.SelectedItem != null)
             {
-                query += "AND fkConstructor = " + GetOneBrand(cbBrand.SelectedItem.ToString(), false)[0] + " ";
+                query += "AND fkBrand = " + GetOneBrand(cbBrand.SelectedItem.ToString(), false)[0] + " ";
             }
 
             if (cbOs.SelectedItem != null)
@@ -121,7 +122,7 @@ namespace SmartphoneManager
 
             query += ";";
 
-            System.Diagnostics.Debug.WriteLine(query);
+            //System.Diagnostics.Debug.WriteLine(query);
 
             List<Phone> list = new List<Phone>();
 
@@ -205,6 +206,39 @@ namespace SmartphoneManager
             }
 
             return list;
+        }
+
+        public List<List<string>> GetPriceHistory(string idPhone)
+        {
+            string query = "SELECT priAmount, priDate FROM t_pricehistory WHERE fkSmartphone = " + idPhone + " ORDER BY `t_pricehistory`.`priDate` ASC; ";
+
+            List<List<string>> rows = new List<List<string>>();
+
+            if (_mySqlConnection.State == System.Data.ConnectionState.Open)
+            {
+                MySqlCommand cmd = new MySqlCommand(query, _mySqlConnection);
+
+                MySqlDataReader mySqlDataReader = cmd.ExecuteReader();
+
+                if (mySqlDataReader.HasRows)
+                {
+                    int count = mySqlDataReader.FieldCount;
+
+                    while (mySqlDataReader.Read())
+                    {
+                        List<string> column = new List<string>();
+                        for (int i = 0; i < count; i++)
+                        {
+                            column.Add(mySqlDataReader.GetValue(i).ToString());
+                        }
+                        rows.Add(column);
+                    }
+                }
+
+                mySqlDataReader.Close();
+            }
+
+            return rows;
         }
     }
 }
