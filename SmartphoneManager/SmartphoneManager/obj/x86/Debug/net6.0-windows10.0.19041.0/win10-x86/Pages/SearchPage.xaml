@@ -20,7 +20,7 @@
         </Grid.RowDefinitions>
 
         <StackPanel Grid.Row="0" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center">
-            <TextBox x:ConnectionId='6' x:Name="tbSearch" 
+            <TextBox x:ConnectionId='7' x:Name="tbSearch" 
                  PlaceholderText="Rechercher..." 
                  PlaceholderForeground="White" 
                  Background="#7b7b7b"
@@ -29,7 +29,7 @@
                  Width="650"
                  Height="30"/>
 
-            <Button x:ConnectionId='7' x:Name="btnSearch"
+            <Button x:ConnectionId='8' x:Name="btnSearch"
                 Grid.Row="0"
                 Background="#0078e7"
                 BorderThickness="0"
@@ -77,13 +77,21 @@
                       HorizontalAlignment="Stretch"
                                                   />
 
+            <Button x:ConnectionId='5' x:Name="btnClearFilters"
+                    Content="Clear Filters"
+                    Background="#e72e00"
+                    CornerRadius="15"
+                    Grid.Row="1"
+                    Grid.Column="2"
+                                                 />
+
             <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal">
                 <TextBlock Text="TRIER PAR:" 
                        Foreground="#7b7b7b" 
                        FontWeight="Bold" 
                        FontSize="15"
                        />
-                <ComboBox x:ConnectionId='5' x:Name="cbSort" Padding="10,0,0,0"                               PlaceholderForeground="#7b7b7b" PlaceholderText="Tri" Background="Transparent" HorizontalAlignment="Stretch" FontWeight="Bold" FontSize="15" Foreground="#7b7b7b" BorderThickness="0" VerticalAlignment="Top">
+                <ComboBox x:ConnectionId='6' x:Name="cbSort" Padding="10,0,0,0"                               PlaceholderForeground="#7b7b7b" PlaceholderText="Tri" Background="Transparent" HorizontalAlignment="Stretch" FontWeight="Bold" FontSize="15" Foreground="#7b7b7b" BorderThickness="0" VerticalAlignment="Top">
                     <x:String>PRIX CROISSANT</x:String>
                     <x:String>PRIX DÉCROISSANT</x:String>
                     <x:String>Taille Écran CROISSANT</x:String>

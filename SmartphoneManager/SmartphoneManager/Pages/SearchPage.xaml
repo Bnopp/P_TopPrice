@@ -77,6 +77,14 @@
                       HorizontalAlignment="Stretch"
                       SelectionChanged="cbFilters"/>
 
+            <Button x:Name="btnClearFilters"
+                    Content="Clear Filters"
+                    Background="#e72e00"
+                    CornerRadius="15"
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    Click="btnClearFilters_Click"/>
+
             <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal">
                 <TextBlock Text="TRIER PAR:" 
                        Foreground="#7b7b7b" 

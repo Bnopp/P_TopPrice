@@ -113,8 +113,6 @@ namespace SmartphoneManager.Pages
 
         private void detail_Click(object sender, RoutedEventArgs e)
         {
-            //this.Frame.Navigate(typeof(DetailPage), _data.GetPriceHistory("1"), new DrillInNavigationTransitionInfo());
-
             string[] phoneDetail = (sender as Button).Tag.ToString().Split(" ");
             Params data = new Params();
             data.Data = _data.GetPriceHistory(phoneDetail[0]);
@@ -127,6 +125,12 @@ namespace SmartphoneManager.Pages
             }
             DetailWindow window = new DetailWindow(data);
             window.Activate();
+        }
+
+        private void btnClearFilters_Click(object sender, RoutedEventArgs e)
+        {
+            cbConstructor.SelectedIndex = -1;
+            cbOS.SelectedIndex = -1;
         }
     }
 }
