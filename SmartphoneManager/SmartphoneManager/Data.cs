@@ -94,31 +94,47 @@ namespace SmartphoneManager
             return list;
         }
 
-        public List<Phone> GetPhones(string search, string sort, object brand, object os)
+        public List<Phone> GetPhones(string search, string top, object sort, object brand, object os, object classify)
         {
             string query = "SELECT * FROM t_smartphone WHERE smaModel LIKE '%" + search + "%' ";
 
+            ComboBox cbSort = (sort as ComboBox);
             ComboBox cbBrand = (brand as ComboBox);
             ComboBox cbOs = (os as ComboBox);
+            ComboBox cbClassify = (classify as ComboBox);
 
             if (cbBrand.SelectedItem != null)
-            {
                 query += "AND fkBrand = " + GetOneBrand(cbBrand.SelectedItem.ToString(), false)[0] + " ";
-            }
 
             if (cbOs.SelectedItem != null)
-            {
                 query += "AND fkOS = " + GetOneOS(cbOs.SelectedItem.ToString(), false)[0] + " ";
+
+            if (cbClassify.SelectedItem != null)
+            {
+                if (cbClassify.SelectedItem.ToString() == "Autonomie Multimédia")
+                    query += "ORDER BY `t_smartphone`.`smaBatteryLife` DESC ";
+                if (cbClassify.SelectedItem.ToString() == "CPU")
+                    query += "ORDER BY `t_smartphone`.`smaClockSpeed` * `t_smartphone`.`smaThreads` DESC ";
+                if (cbClassify.SelectedItem.ToString() == "CPU - Taille d'écran - RAM")
+                    query += "ORDER BY `t_smartphone`.`smaClockSpeed` * `t_smartphone`.`smaThreads` DESC, " +
+                        "ORDER BY `t_smartphone`.`smaScreenSize` DESC, " +
+                        "ORDER BY `t_smartphone`.`smaRAM` DESC ";
             }
 
-            if (sort == "PRIX CROISSANT")
-                query += "ORDER BY `t_smartphone`.`smaPrice` ASC ";
-            else if (sort == "PRIX DÉCROISSANT")
-                query += "ORDER BY `t_smartphone`.`smaPrice` DESC ";
-            else if (sort == "Taille Écran CROISSANT")
-                query += "ORDER BY `t_smartphone`.`smaScreenSize` ASC ";
-            else
-                query += "ORDER BY `t_smartphone`.`smaScreenSize` DESC ";
+            if (cbSort.SelectedItem != null)
+            {
+                if (cbSort.SelectedItem.ToString() == "PRIX CROISSANT")
+                    query += "ORDER BY `t_smartphone`.`smaPrice` ASC ";
+                else if (cbSort.SelectedItem.ToString() == "PRIX DÉCROISSANT")
+                    query += "ORDER BY `t_smartphone`.`smaPrice` DESC ";
+                else if (cbSort.SelectedItem.ToString() == "Taille Écran CROISSANT")
+                    query += "ORDER BY `t_smartphone`.`smaScreenSize` ASC ";
+                else
+                    query += "ORDER BY `t_smartphone`.`smaScreenSize` DESC ";
+            }
+
+            if (top != "Tout")
+                query += "LIMIT " + top;
 
             query += ";";
 

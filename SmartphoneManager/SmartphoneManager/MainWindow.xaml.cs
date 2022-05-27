@@ -44,7 +44,7 @@ namespace SmartphoneManager
             ExtendsContentIntoTitleBar = true;
             Title = "Smartphone Manager";
 
-            ContentFrame.Navigate(typeof(SearchPage), null, new DrillInNavigationTransitionInfo());
+            ContentFrame.Navigate(typeof(WelcomePage), null, new DrillInNavigationTransitionInfo());
 
             _apw.Resize(new Windows.Graphics.SizeInt32(1024, 576));
         }

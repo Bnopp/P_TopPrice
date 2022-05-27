@@ -40,7 +40,7 @@ namespace SmartphoneManager.Pages
         {
             this.InitializeComponent();
 
-            cbSort.SelectedIndex = 0;
+            cbTop.SelectedIndex = 0;
 
             _data = new Data();
 
@@ -66,50 +66,37 @@ namespace SmartphoneManager.Pages
             ShowPhones();
         }
 
-        private void cbFilters(object sender, SelectionChangedEventArgs e)
+        private void cbUpdate(object sender, SelectionChangedEventArgs e)
         {
             if (_data != null)
                 ShowPhones();
         }
 
-        private void CheckBox_Checked(object sender, RoutedEventArgs e)
+        private void cbClassify_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            ShowPhones();
+            if ((sender as ComboBox).SelectedIndex == 1)
+                (sender as ComboBox).FontSize = 15;
+            else
+                (sender as ComboBox).FontSize = 10;
+
+            cbSort.SelectedIndex = 0;
+
+            cbUpdate(sender, e);
         }
 
-        private void ShowPhones()
+        private void cbSort_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            phoneLibrary.Items.Clear();
+            if ((sender as ComboBox).SelectedIndex == 0 || (sender as ComboBox).SelectedIndex == 1)
+                (sender as ComboBox).FontSize = 15;
+            else
+                (sender as ComboBox).FontSize = 10;
 
-            //Load Phones
-            foreach (var phone in _data.GetPhones(tbSearch.Text, cbSort.SelectedItem.ToString(), cbConstructor, cbOS))
-            {
-                
-                StackPanel sp = new StackPanel();
-                sp.Orientation = Orientation.Vertical;
+            cbClassify.SelectedIndex = -1;
 
-                var uri = "ms-appx:///Assets/images/phones/imageMissing.png";
-                //var uri = "ms-appx:///Assets/images/phones/iPhone SE.png";
-
-                if (File.Exists(System.AppDomain.CurrentDomain.BaseDirectory + "/Assets/images/phones/" + phone.Specs[1] + ".png"))
-                {
-                    uri = "ms-appx:///Assets/images/phones/" + phone.Specs[1] + ".png";
-                }
-
-                BitmapImage img = new BitmapImage(new Uri(uri, UriKind.Absolute));
-                img.DecodePixelWidth = (int)sp.Width;
-                sp.Children.Add(new Image() { Source = img });
-                sp.Children.Add(new TextBlock() { Text = phone.Specs[2] + " CHF"});
-                sp.Children.Add(new TextBlock()
-                { Text = _data.GetOneBrand(phone.Specs[12], true)[0] + " " + phone.Specs[1] + " (" + phone.Specs[3] + "GB, " + phone.Specs[6] + '"' + ")" });
-
-                Button btn = new Button();
-                btn.Content = sp;
-                btn.Tag = phone.Specs[0] + " " + phone.Specs[1];
-                btn.Click += new RoutedEventHandler(detail_Click);
-                phoneLibrary.Items.Add(btn);
-            }
+            cbUpdate(sender, e);
         }
+
+        
 
         private void detail_Click(object sender, RoutedEventArgs e)
         {
@@ -131,6 +118,40 @@ namespace SmartphoneManager.Pages
         {
             cbConstructor.SelectedIndex = -1;
             cbOS.SelectedIndex = -1;
+            cbTop.SelectedIndex = 0;
+        }
+
+        private void ShowPhones()
+        {
+            phoneLibrary.Items.Clear();
+
+            //Load Phones
+            foreach (var phone in _data.GetPhones(tbSearch.Text, cbTop.SelectedItem.ToString(), cbSort, cbConstructor, cbOS, cbClassify))
+            {
+                StackPanel sp = new StackPanel();
+                sp.Orientation = Orientation.Vertical;
+
+                var uri = "ms-appx:///Assets/images/phones/imageMissing.png";
+                //var uri = "ms-appx:///Assets/images/phones/iPhone SE.png";
+
+                if (File.Exists(System.AppDomain.CurrentDomain.BaseDirectory + "/Assets/images/phones/" + phone.Specs[1] + ".png"))
+                {
+                    uri = "ms-appx:///Assets/images/phones/" + phone.Specs[1] + ".png";
+                }
+
+                BitmapImage img = new BitmapImage(new Uri(uri, UriKind.Absolute));
+                img.DecodePixelWidth = (int)sp.Width;
+                sp.Children.Add(new Image() { Source = img });
+                sp.Children.Add(new TextBlock() { Text = phone.Specs[2] + " CHF" });
+                sp.Children.Add(new TextBlock()
+                { Text = _data.GetOneBrand(phone.Specs[12], true)[0] + " " + phone.Specs[1] + " (" + phone.Specs[3] + "GB, " + phone.Specs[6] + '"' + ")" });
+
+                Button btn = new Button();
+                btn.Content = sp;
+                btn.Tag = phone.Specs[0] + " " + phone.Specs[1];
+                btn.Click += new RoutedEventHandler(detail_Click);
+                phoneLibrary.Items.Add(btn);
+            }
         }
     }
 }

@@ -19,7 +19,10 @@
             <RowDefinition Height="3*"/>
         </Grid.RowDefinitions>
 
-        <StackPanel Grid.Row="0" Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+        <StackPanel Grid.Row="0" 
+                    Orientation="Horizontal" 
+                    VerticalAlignment="Bottom" 
+                    HorizontalAlignment="Center">
             <TextBox x:Name="tbSearch" 
                  PlaceholderText="Rechercher..." 
                  PlaceholderForeground="White" 
@@ -41,7 +44,11 @@
             </Button>
         </StackPanel>
 
-        <Grid Grid.Row="1" VerticalAlignment="Top" RowSpacing="10" ColumnSpacing="10" Width="700">
+        <Grid Grid.Row="1" 
+              VerticalAlignment="Top" 
+              RowSpacing="10" 
+              ColumnSpacing="10" 
+              Width="700">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="2*"/>
@@ -67,7 +74,7 @@
                       CornerRadius="15"
                       Grid.Row="1" Grid.Column="0"
                       HorizontalAlignment="Stretch"
-                      SelectionChanged="cbFilters"/>
+                      SelectionChanged="cbUpdate"/>
 
             <ComboBox x:Name="cbConstructor" 
                       PlaceholderText="Constructeur"
@@ -75,32 +82,102 @@
                       CornerRadius="15"
                       Grid.Row="1" Grid.Column="1"
                       HorizontalAlignment="Stretch"
-                      SelectionChanged="cbFilters"/>
+                      SelectionChanged="cbUpdate"/>
 
             <Button x:Name="btnClearFilters"
-                    Content="Clear Filters"
+                    Content="Effacer les filtres"
                     Background="#e72e00"
                     CornerRadius="15"
                     Grid.Row="1"
                     Grid.Column="2"
+                    HorizontalAlignment="Stretch"
                     Click="btnClearFilters_Click"/>
 
-            <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal">
+            <StackPanel Grid.Row="2" 
+                        Grid.Column="0" 
+                        Grid.ColumnSpan="2"
+                        Orientation="Horizontal"
+>
                 <TextBlock Text="TRIER PAR:" 
                        Foreground="#7b7b7b" 
                        FontWeight="Bold" 
                        FontSize="15"
                        />
-                <ComboBox x:Name="cbSort" Padding="10,0,0,0" SelectionChanged="cbFilters"  PlaceholderForeground="#7b7b7b" PlaceholderText="Tri" Background="Transparent" HorizontalAlignment="Stretch" FontWeight="Bold" FontSize="15" Foreground="#7b7b7b" BorderThickness="0" VerticalAlignment="Top">
+                <ComboBox x:Name="cbSort" Padding="10,0,0,0" 
+                          SelectionChanged="cbSort_SelectionChanged"  
+                          PlaceholderForeground="#7b7b7b" 
+                          PlaceholderText="Choisir" 
+                          Background="Transparent" 
+                          HorizontalAlignment="Stretch" 
+                          FontWeight="Bold" 
+                          FontSize="15" 
+                          Foreground="#7b7b7b" 
+                          BorderThickness="0" 
+                          VerticalAlignment="Top">
+                    <x:String>AUCUN TRI</x:String>
                     <x:String>PRIX CROISSANT</x:String>
                     <x:String>PRIX DÉCROISSANT</x:String>
                     <x:String>Taille Écran CROISSANT</x:String>
                     <x:String>Taille Écran DÉCROISSANT</x:String>
                 </ComboBox>
             </StackPanel>
+            <StackPanel Grid.Row="2" 
+                        Grid.Column="1" 
+                        Grid.ColumnSpan="2"
+                        Padding="35, 0, 0, 0"
+                        x:Name="spClass"
+                        Orientation="Horizontal">
+                <TextBlock Text="Classer par:" 
+                       Foreground="#7b7b7b" 
+                       FontWeight="Bold" 
+                       FontSize="15"
+                       />
+                <ComboBox x:Name="cbClassify" Padding="10,0,0,0" 
+                          SelectionChanged="cbClassify_SelectionChanged"  
+                          PlaceholderForeground="#7b7b7b" 
+                          PlaceholderText="Choisir" 
+                          Background="Transparent" 
+                          HorizontalAlignment="Stretch" 
+                          FontWeight="Bold" 
+                          FontSize="15" 
+                          Foreground="#7b7b7b" 
+                          BorderThickness="0" 
+                          VerticalAlignment="Top">
+                    <x:String>Autonomie Multimédia</x:String>
+                    <x:String>CPU</x:String>
+                    <x:String>CPU - Taille d'écran - RAM</x:String>
+                </ComboBox>
+            </StackPanel>
+            <StackPanel Grid.Row="2" 
+                        Grid.Column="2"
+                        Padding="60, 0, 0, 0"
+                        Orientation="Horizontal">
+                <TextBlock Text="Top:" 
+                       Foreground="#7b7b7b" 
+                       FontWeight="Bold" 
+                       FontSize="15"
+                       />
+                <ComboBox x:Name="cbTop" Padding="10,0,0,0" 
+                          SelectionChanged="cbUpdate"  
+                          PlaceholderForeground="#7b7b7b"
+                          PlaceholderText="Top"
+                          Background="Transparent" 
+                          HorizontalAlignment="Stretch" 
+                          FontWeight="Bold" 
+                          FontSize="15" 
+                          Foreground="#7b7b7b" 
+                          BorderThickness="0" 
+                          VerticalAlignment="Top">
+                    <x:String>Tout</x:String>
+                    <x:String>1</x:String>
+                    <x:String>3</x:String>
+                    <x:String>5</x:String>
+                    <x:String>10</x:String>
+                </ComboBox>
+            </StackPanel>
         </Grid>
 
-        <GridView x:Name="phoneLibrary" Grid.Row="2" Width="700">
+        <GridView x:Name="phoneLibrary" Grid.Row="3" Width="700">
             <GridView.Resources>
                 <Style TargetType="StackPanel">
                     <Setter Property="Background" Value="#7b7b7b"/>
