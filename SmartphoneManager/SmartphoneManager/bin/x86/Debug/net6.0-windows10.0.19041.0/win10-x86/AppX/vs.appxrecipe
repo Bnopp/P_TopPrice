@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-27T11:44:44.240</Modified>
+      <Modified>2022-05-27T14:44:00.264</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-05-27T11:44:44.057</Modified>
+      <Modified>2022-05-27T14:44:00.032</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\SmartphoneManager.runtimeconfig.json">
       <PackagePath>SmartphoneManager.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\SmartphoneManager.dll">
       <PackagePath>SmartphoneManager.dll</PackagePath>
-      <Modified>2022-05-27T11:44:43.970</Modified>
+      <Modified>2022-05-27T14:43:59.922</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\obj\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\apphost.exe">
       <PackagePath>SmartphoneManager.exe</PackagePath>
-      <Modified>2022-05-27T11:44:43.976</Modified>
+      <Modified>2022-05-27T14:43:59.928</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\bin\x86\Debug\net6.0-windows10.0.19041.0\win10-x86\SmartphoneManager.deps.json">
       <PackagePath>SmartphoneManager.deps.json</PackagePath>
@@ -1093,6 +1093,58 @@
       <PackagePath>Assets\images\magnifyIcon.png</PackagePath>
       <Modified>2022-05-10T12:36:57.432</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\10 Pro.png">
+      <PackagePath>Assets\images\phones\10 Pro.png</PackagePath>
+      <Modified>2022-05-27T12:58:55.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\11T Pro.png">
+      <PackagePath>Assets\images\phones\11T Pro.png</PackagePath>
+      <Modified>2022-05-27T13:40:03.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\13 Pro Max.png">
+      <PackagePath>Assets\images\phones\13 Pro Max.png</PackagePath>
+      <Modified>2022-05-27T14:16:43.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\4.png">
+      <PackagePath>Assets\images\phones\4.png</PackagePath>
+      <Modified>2022-05-27T12:56:27.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\50 Lite.png">
+      <PackagePath>Assets\images\phones\50 Lite.png</PackagePath>
+      <Modified>2022-05-27T13:14:08.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\50.png">
+      <PackagePath>Assets\images\phones\50.png</PackagePath>
+      <Modified>2022-05-27T13:12:27.468</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Edge+.png">
+      <PackagePath>Assets\images\phones\Edge+.png</PackagePath>
+      <Modified>2022-05-27T13:38:21.943</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Galaxy A32 5G.png">
+      <PackagePath>Assets\images\phones\Galaxy A32 5G.png</PackagePath>
+      <Modified>2022-05-27T13:04:52.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Galaxy A53 5G.png">
+      <PackagePath>Assets\images\phones\Galaxy A53 5G.png</PackagePath>
+      <Modified>2022-05-27T13:21:35.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Galaxy S22 5G.png">
+      <PackagePath>Assets\images\phones\Galaxy S22 5G.png</PackagePath>
+      <Modified>2022-05-27T13:06:51.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Galaxy S22 Ultra 5G.png">
+      <PackagePath>Assets\images\phones\Galaxy S22 Ultra 5G.png</PackagePath>
+      <Modified>2022-05-27T13:10:36.620</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Galaxy S22+ 5G.png">
+      <PackagePath>Assets\images\phones\Galaxy S22+ 5G.png</PackagePath>
+      <Modified>2022-05-27T13:09:29.360</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Galaxy Z Flip3 5G.png">
+      <PackagePath>Assets\images\phones\Galaxy Z Flip3 5G.png</PackagePath>
+      <Modified>2022-05-27T13:36:29.801</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\imageMissing.png">
       <PackagePath>Assets\images\phones\imageMissing.png</PackagePath>
       <Modified>2022-05-15T17:04:26.604</Modified>
@@ -1112,6 +1164,58 @@
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\iPhone SE.png">
       <PackagePath>Assets\images\phones\iPhone SE.png</PackagePath>
       <Modified>2022-05-15T16:46:25.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\iPhone X.png">
+      <PackagePath>Assets\images\phones\iPhone X.png</PackagePath>
+      <Modified>2022-05-27T14:05:13.669</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Nord CE 5G.png">
+      <PackagePath>Assets\images\phones\Nord CE 5G.png</PackagePath>
+      <Modified>2022-05-27T13:30:53.390</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\P40 Lite.png">
+      <PackagePath>Assets\images\phones\P40 Lite.png</PackagePath>
+      <Modified>2022-05-27T13:34:54.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Pixel 6 Pro.png">
+      <PackagePath>Assets\images\phones\Pixel 6 Pro.png</PackagePath>
+      <Modified>2022-05-27T12:44:26.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Pixel 6.png">
+      <PackagePath>Assets\images\phones\Pixel 6.png</PackagePath>
+      <Modified>2022-05-27T13:42:31.304</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Redmi 9A.png">
+      <PackagePath>Assets\images\phones\Redmi 9A.png</PackagePath>
+      <Modified>2022-05-27T13:27:15.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Redmi Note 11 Pro 5G.png">
+      <PackagePath>Assets\images\phones\Redmi Note 11 Pro 5G.png</PackagePath>
+      <Modified>2022-05-27T13:46:58.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Redmi Note 11.png">
+      <PackagePath>Assets\images\phones\Redmi Note 11.png</PackagePath>
+      <Modified>2022-05-27T13:16:28.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Reno6 Pro 5G.png">
+      <PackagePath>Assets\images\phones\Reno6 Pro 5G.png</PackagePath>
+      <Modified>2022-05-27T13:01:54.215</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\ROG 5s Pro.png">
+      <PackagePath>Assets\images\phones\ROG 5s Pro.png</PackagePath>
+      <Modified>2022-05-27T12:32:13.895</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\S62 Pro.png">
+      <PackagePath>Assets\images\phones\S62 Pro.png</PackagePath>
+      <Modified>2022-05-27T13:33:05.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Xperia 5 III.png">
+      <PackagePath>Assets\images\phones\Xperia 5 III.png</PackagePath>
+      <Modified>2022-05-27T13:19:12.550</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\XR20.png">
+      <PackagePath>Assets\images\phones\XR20.png</PackagePath>
+      <Modified>2022-05-27T13:44:42.845</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\titleImage.png">
       <PackagePath>Assets\images\titleImage.png</PackagePath>

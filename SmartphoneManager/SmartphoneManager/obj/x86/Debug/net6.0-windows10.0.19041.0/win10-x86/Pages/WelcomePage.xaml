@@ -31,7 +31,7 @@
             <TextBlock Text="SMARTPHONE MANAGER" Foreground="#7b7b7b" FontWeight="Bold" FontSize="15" Grid.Row="0" VerticalAlignment="Bottom" Margin="75,0,0,0"/>
 
             <TextBlock Text="Trouvez le smartphone parfait pour vous" FontWeight="Bold" FontSize="40" TextWrapping="Wrap" Grid.Row="1" VerticalAlignment="Top" Margin="75,0,0,0"/>
-            <Image Source="/Assets/images/underline.png" Width="100" Grid.Row="1" VerticalAlignment="Bottom" Margin="0,0,65,50"/>
+            <Image Source="/Assets/images/underline.png" Width="100" Grid.Row="1" VerticalAlignment="Bottom" Margin="0,0, 65,95"/>
 
             <Button x:ConnectionId='3' x:Name="btnLaunch"                      Grid.Row="2" Background="#0078e7" CornerRadius="15" VerticalAlignment="Center" Margin="75,0,0,0">
                 <StackPanel Orientation="Horizontal" Padding="5,0,5,0">

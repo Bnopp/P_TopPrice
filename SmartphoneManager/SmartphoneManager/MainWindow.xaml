@@ -7,6 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
+    <!-- Main Window Frame to display welcome and search page -->
     <Frame x:Name="ContentFrame">
         <Frame.ContentTransitions>
             <TransitionCollection>

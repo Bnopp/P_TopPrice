@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace SmartphoneManager
 {
+    /// <summary>
+    /// Custom class med to send multiple paramters as one object to go around the limited parameter count in WinUI 3 for page to page navigation
+    /// </summary>
     public class Params
     {
         private List<List<string>> data = new List<List<string>>();

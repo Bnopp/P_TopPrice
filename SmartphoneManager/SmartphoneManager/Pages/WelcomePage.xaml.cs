@@ -1,42 +1,37 @@
 ﻿using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Controls.Primitives;
-using Microsoft.UI.Xaml.Data;
-using Microsoft.UI.Xaml.Input;
-using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Media.Animation;
-using Microsoft.UI.Xaml.Navigation;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.Graphics.Display;
-using Windows.UI.ViewManagement;
-
-// To learn more about WinUI, the WinUI project structure,
-// and more about our project templates, see: http://aka.ms/winui-project-info.
 
 namespace SmartphoneManager.Pages
 {
     /// <summary>
-    /// An empty page that can be used on its own or navigated to within a Frame.
+    /// Page displayed on app launch, welcome page
     /// </summary>
     public sealed partial class WelcomePage : Page
     {
+        /// <summary>
+        /// Default main constructor
+        /// </summary>
         public WelcomePage()
         {
             this.InitializeComponent();
         }
 
+        /// <summary>
+        /// When button is pressed, navigate to main search page
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(SearchPage), null, new DrillInNavigationTransitionInfo());
         }
-
+        
+        /// <summary>
+        /// Set focus to invisible button, needed to prevent WinUI 3 glitch
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
             btnDefaultFocus.Focus(FocusState.Programmatic);

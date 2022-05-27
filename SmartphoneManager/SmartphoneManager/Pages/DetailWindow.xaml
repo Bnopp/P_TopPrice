@@ -8,6 +8,7 @@
     xmlns:oxy="using:OxyPlot"
     mc:Ignorable="d">
 
+    <!-- Main frame of the winow to show pages-->
     <Frame x:Name="GraphFrame">
         <Frame.ContentTransitions>
             <TransitionCollection>

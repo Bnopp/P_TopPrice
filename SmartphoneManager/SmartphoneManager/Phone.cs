@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace SmartphoneManager
 {
+    /// <summary>
+    /// Phone class containing all the data on a smartphone returned from the database
+    /// </summary>
     public class Phone
     {
         private List<string> specs = new List<string>();

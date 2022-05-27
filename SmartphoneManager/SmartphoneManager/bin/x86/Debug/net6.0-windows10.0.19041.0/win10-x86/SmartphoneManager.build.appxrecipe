@@ -820,6 +820,45 @@
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\magnifyIcon.png">
       <PackagePath>Assets\images\magnifyIcon.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\10 Pro.png">
+      <PackagePath>Assets\images\phones\10 Pro.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\11T Pro.png">
+      <PackagePath>Assets\images\phones\11T Pro.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\13 Pro Max.png">
+      <PackagePath>Assets\images\phones\13 Pro Max.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\4.png">
+      <PackagePath>Assets\images\phones\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\50 Lite.png">
+      <PackagePath>Assets\images\phones\50 Lite.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\50.png">
+      <PackagePath>Assets\images\phones\50.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Edge+.png">
+      <PackagePath>Assets\images\phones\Edge+.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Galaxy A32 5G.png">
+      <PackagePath>Assets\images\phones\Galaxy A32 5G.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Galaxy A53 5G.png">
+      <PackagePath>Assets\images\phones\Galaxy A53 5G.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Galaxy S22 5G.png">
+      <PackagePath>Assets\images\phones\Galaxy S22 5G.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Galaxy S22 Ultra 5G.png">
+      <PackagePath>Assets\images\phones\Galaxy S22 Ultra 5G.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Galaxy S22+ 5G.png">
+      <PackagePath>Assets\images\phones\Galaxy S22+ 5G.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Galaxy Z Flip3 5G.png">
+      <PackagePath>Assets\images\phones\Galaxy Z Flip3 5G.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\imageMissing.png">
       <PackagePath>Assets\images\phones\imageMissing.png</PackagePath>
     </AppxPackagedFile>
@@ -834,6 +873,45 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\iPhone SE.png">
       <PackagePath>Assets\images\phones\iPhone SE.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\iPhone X.png">
+      <PackagePath>Assets\images\phones\iPhone X.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Nord CE 5G.png">
+      <PackagePath>Assets\images\phones\Nord CE 5G.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\P40 Lite.png">
+      <PackagePath>Assets\images\phones\P40 Lite.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Pixel 6 Pro.png">
+      <PackagePath>Assets\images\phones\Pixel 6 Pro.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Pixel 6.png">
+      <PackagePath>Assets\images\phones\Pixel 6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Redmi 9A.png">
+      <PackagePath>Assets\images\phones\Redmi 9A.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Redmi Note 11 Pro 5G.png">
+      <PackagePath>Assets\images\phones\Redmi Note 11 Pro 5G.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Redmi Note 11.png">
+      <PackagePath>Assets\images\phones\Redmi Note 11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Reno6 Pro 5G.png">
+      <PackagePath>Assets\images\phones\Reno6 Pro 5G.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\ROG 5s Pro.png">
+      <PackagePath>Assets\images\phones\ROG 5s Pro.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\S62 Pro.png">
+      <PackagePath>Assets\images\phones\S62 Pro.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\Xperia 5 III.png">
+      <PackagePath>Assets\images\phones\Xperia 5 III.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\phones\XR20.png">
+      <PackagePath>Assets\images\phones\XR20.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sergh\Documents\GitHub\P_TopPrice\SmartphoneManager\SmartphoneManager\Assets\images\titleImage.png">
       <PackagePath>Assets\images\titleImage.png</PackagePath>

@@ -8,17 +8,21 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
+    <!-- Main Grid -->
     <Grid RowSpacing="10">
+        <!-- Set Image Background -->
         <Grid.Background>
             <ImageBrush ImageSource="/Assets/images/bgimg.jpg" Stretch="UniformToFill" />
         </Grid.Background>
         
+        <!-- Divide the main grid in 3 rows -->
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="3*"/>
+            <RowDefinition Height="4*"/>
         </Grid.RowDefinitions>
-
+ 
+        <!-- Search bar with custom search button -->
         <StackPanel Grid.Row="0" 
                     Orientation="Horizontal" 
                     VerticalAlignment="Bottom" 
@@ -44,17 +48,21 @@
             </Button>
         </StackPanel>
 
+        <!-- Secondary grid for the different filter options -->
         <Grid Grid.Row="1" 
               VerticalAlignment="Top" 
               RowSpacing="10" 
               ColumnSpacing="10" 
               Width="700">
+
+            <!-- Divide the grid in 3 rows -->
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
+            <!-- Divide the grid in 3 columns -->
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
@@ -68,6 +76,7 @@
                        Grid.Row="0" Grid.Column="0"
                        />
 
+            <!-- Operating system select combo box -->
             <ComboBox x:Name="cbOS" 
                       PlaceholderText="Système d'opération"
                       Background="#7b7b7b"
@@ -76,14 +85,16 @@
                       HorizontalAlignment="Stretch"
                       SelectionChanged="cbUpdate"/>
 
+            <!-- Constructor/Brand select combo box -->
             <ComboBox x:Name="cbConstructor" 
-                      PlaceholderText="Constructeur"
+                      PlaceholderText="Marque"
                       Background="#7b7b7b"
                       CornerRadius="15"
                       Grid.Row="1" Grid.Column="1"
                       HorizontalAlignment="Stretch"
                       SelectionChanged="cbUpdate"/>
 
+            <!-- Button to clear the various search filters -->
             <Button x:Name="btnClearFilters"
                     Content="Effacer les filtres"
                     Background="#e72e00"
@@ -93,16 +104,19 @@
                     HorizontalAlignment="Stretch"
                     Click="btnClearFilters_Click"/>
 
+            <!-- Sorting area -->
             <StackPanel Grid.Row="2" 
                         Grid.Column="0" 
                         Grid.ColumnSpan="2"
-                        Orientation="Horizontal"
->
+                        Orientation="Horizontal">
+                
                 <TextBlock Text="TRIER PAR:" 
                        Foreground="#7b7b7b" 
                        FontWeight="Bold" 
                        FontSize="15"
-                       />
+                       VerticalAlignment="Center"/>
+
+                <!-- Price and screen size sorting options combo box -->
                 <ComboBox x:Name="cbSort" Padding="10,0,0,0" 
                           SelectionChanged="cbSort_SelectionChanged"  
                           PlaceholderForeground="#7b7b7b" 
@@ -121,17 +135,22 @@
                     <x:String>Taille Écran DÉCROISSANT</x:String>
                 </ComboBox>
             </StackPanel>
+
+            <!-- Classify area -->
             <StackPanel Grid.Row="2" 
                         Grid.Column="1" 
                         Grid.ColumnSpan="2"
                         Padding="35, 0, 0, 0"
                         x:Name="spClass"
                         Orientation="Horizontal">
+                
                 <TextBlock Text="Classer par:" 
                        Foreground="#7b7b7b" 
                        FontWeight="Bold" 
                        FontSize="15"
-                       />
+                       VerticalAlignment="Center"/>
+                
+                <!-- Classify by different options combo box -->
                 <ComboBox x:Name="cbClassify" Padding="10,0,0,0" 
                           SelectionChanged="cbClassify_SelectionChanged"  
                           PlaceholderForeground="#7b7b7b" 
@@ -148,15 +167,20 @@
                     <x:String>CPU - Taille d'écran - RAM</x:String>
                 </ComboBox>
             </StackPanel>
+
+            <!-- Select number of results wanted area -->
             <StackPanel Grid.Row="2" 
                         Grid.Column="2"
                         Padding="60, 0, 0, 0"
                         Orientation="Horizontal">
+                
                 <TextBlock Text="Top:" 
                        Foreground="#7b7b7b" 
                        FontWeight="Bold" 
                        FontSize="15"
-                       />
+                       VerticalAlignment="Center" />
+
+                <!-- How many smartphones to output select combo box -->
                 <ComboBox x:Name="cbTop" Padding="10,0,0,0" 
                           SelectionChanged="cbUpdate"  
                           PlaceholderForeground="#7b7b7b"
@@ -177,12 +201,13 @@
             </StackPanel>
         </Grid>
 
+        <!-- Grid to display search results from controls above -->
         <GridView x:Name="phoneLibrary" Grid.Row="3" Width="700">
             <GridView.Resources>
                 <Style TargetType="StackPanel">
                     <Setter Property="Background" Value="#7b7b7b"/>
                     <Setter Property="Width" Value="226"/>
-                    <Setter Property="Height" Value="300"/>
+                    <Setter Property="Height" Value="385"/>
                     <Setter Property="CornerRadius" Value="15"/>
                 </Style>
                 <Style TargetType="Button">
@@ -190,7 +215,7 @@
                     <Setter Property="Padding" Value="0"/>
                 </Style>
                 <Style TargetType="Image">
-                    <Setter Property="Width" Value="125"/>
+                    <Setter Property="Height" Value="175"/>
                     <Setter Property="Margin" Value="0,25,0,15"/>
                 </Style>
                 <Style TargetType="TextBlock">

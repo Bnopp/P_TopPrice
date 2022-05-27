@@ -9,30 +9,41 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     Loaded="Page_Loaded">
 
+    <!-- Main grid -->
     <Grid>
+        <!-- Set grid image background -->
         <Grid.Background>
             <ImageBrush ImageSource="/Assets/images/bgimg.jpg" Stretch="UniformToFill" />
         </Grid.Background>
 
+        <!-- Split the grid in 2 columns -->
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
+        <!-- Set invisible button to take focus on app launch, needed because of winUI 3 glitch -->
         <Button x:Name="btnDefaultFocus" Width="0" Height="0"/>
 
+        <!-- Grid to handle the left side of the main grid -->
         <Grid Grid.Column="0">
+
+            <!-- Split the grid in 3 rows -->
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="2*"/>
                 <RowDefinition Height="2*"/>
             </Grid.RowDefinitions>
 
+            <!-- Subtitle text -->
             <TextBlock Text="SMARTPHONE MANAGER" Foreground="#7b7b7b" FontWeight="Bold" FontSize="15" Grid.Row="0" VerticalAlignment="Bottom" Margin="75,0,0,0"/>
 
+            <!-- Main title text -->
             <TextBlock Text="Trouvez le smartphone parfait pour vous" FontWeight="Bold" FontSize="40" TextWrapping="Wrap" Grid.Row="1" VerticalAlignment="Top" Margin="75,0,0,0"/>
-            <Image Source="/Assets/images/underline.png" Width="100" Grid.Row="1" VerticalAlignment="Bottom" Margin="0,0,65,50"/>
+            <!-- Small custom underline for astethic touch -->
+            <Image Source="/Assets/images/underline.png" Width="100" Grid.Row="1" VerticalAlignment="Bottom" Margin="0,0, 65,95"/>
 
+            <!-- Button to redirect to main search page -->
             <Button x:Name="btnLaunch" Click="Button_Click" Grid.Row="2" Background="#0078e7" CornerRadius="15" VerticalAlignment="Center" Margin="75,0,0,0">
                 <StackPanel Orientation="Horizontal" Padding="5,0,5,0">
                     <Image Source="/Assets/images/magnifyIcon.png" Width="35"/>
@@ -42,6 +53,7 @@
 
         </Grid>
 
+        <!-- Title screen image -->
         <Image Source="/Assets/images/titleImage.png" Stretch="UniformToFill" Grid.Column="1"/>
     </Grid>
 </Page>
